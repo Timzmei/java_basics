@@ -2,7 +2,7 @@
     font-family: Arial;
 }
 
-#todo-form {
+#book-form {
     display: none;
     align-items: center;
     justify-content: center;
@@ -15,18 +15,18 @@
     background-color: #88888878;
 }
 
-#todo-form form {
+#book-form form {
     background-color: white;
     border: 1px solid #333;
     width: 300px;
     padding: 20px;
 }
 
-#todo-form h2 {
+#book-form h2 {
     margin-top: 0;
 }
 
-#todo-form label {
+#book-form label {
     display: block;
 }
 

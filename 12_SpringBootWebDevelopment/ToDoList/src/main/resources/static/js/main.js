@@ -1,39 +1,39 @@
 $(function(){
 
-    const appendToDo = function(data){
-        var todoCode = '<a href="#" class="todo-link" data-id="' +
+    const appendBook = function(data){
+        var bookCode = '<a href="#" class="book-link" data-id="' +
             data.id + '">' + data.name + '</a><br>';
-        $('#todo-list')
-            .append('<div>' + todoCode + '</div>');
+        $('#book-list')
+            .append('<div>' + bookCode + '</div>');
     };
 
     //Loading books on load page
-    $.get('/list/', function(response)
+    $.get('/books/', function(response)
     {
         for(i in response) {
-            appendToDo(response[i]);
+            appendBook(response[i]);
         }
     });
 
     //Show adding book form
-    $('#show-add-todo-form').click(function(){
-        $('#todo-form').css('display', 'flex');
+    $('#show-add-book-form').click(function(){
+        $('#book-form').css('display', 'flex');
     });
 
     //Closing adding book form
-    $('#todo-form').click(function(event){
+    $('#book-form').click(function(event){
         if(event.target === this) {
             $(this).css('display', 'none');
         }
     });
 
     //Getting book
-    $(document).on('click', '.todo-link', function(){
+    $(document).on('click', '.book-link', function(){
         var link = $(this);
-        var todoId = link.data('id');
+        var bookId = link.data('id');
         $.ajax({
             method: "GET",
-            url: '/list/' + todoId,
+            url: '/books/' + bookId,
             success: function(response)
             {
                 var code = '<span>Год выпуска:' + response.year + '</span>';
@@ -50,23 +50,23 @@ $(function(){
     });
 
     //Adding book
-    $('#save-todo').click(function()
+    $('#save-book').click(function()
     {
-        var data = $('#todo-form form').serialize();
+        var data = $('#book-form form').serialize();
         $.ajax({
             method: "POST",
-            url: '/list/',
+            url: '/books/',
             data: data,
             success: function(response)
             {
-                $('#todo-form').css('display', 'none');
-                var todo = {};
-                todo.id = response;
-                var dataArray = $('#todo-form form').serializeArray();
+                $('#book-form').css('display', 'none');
+                var book = {};
+                book.id = response;
+                var dataArray = $('#book-form form').serializeArray();
                 for(i in dataArray) {
-                    todo[dataArray[i]['name']] = dataArray[i]['value'];
+                    book[dataArray[i]['name']] = dataArray[i]['value'];
                 }
-                appendToDo(todo);
+                appendBook(book);
             }
         });
         return false;
