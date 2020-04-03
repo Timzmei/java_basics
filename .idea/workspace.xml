@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="ToDoList рабочая версия 03.04.2020">
+      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/ToDoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/model/ToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js/jquery-3.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/jquery-3.4.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/jquery-3.4.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/DefaultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Guliev Timur &lt;timur.guliev@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zsw1snZzrOaV0O27PHmuRscdOh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_SpringBootWebDevelopment" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js" />
+      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/js" />
+      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main" />
+      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="BookLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="toDoList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="" />
+      <created>1585640897330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585640897330</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ToDoList done">
+      <created>1585651864397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585651864398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ToDoList adjusted">
+      <created>1585763135452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585763135452</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="second" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ToDoList done" />
+    <MESSAGE value="ToDoList adjusted" />
+    <MESSAGE value="ToDoList рабочая версия 03.04.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="ToDoList рабочая версия 03.04.2020" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1018" y="213" width="847" height="684" key="#Project_Structure" timestamp="1585645509072">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1018" y="213" width="847" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1585645509072" />
+    <state x="1264" y="241" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1585772050731">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1264" y="241" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1585772050731" />
+    <state x="1128" y="221" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585645652206">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1128" y="221" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585645652206" />
+    <state x="436" y="481" width="1047" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585758361298">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="436" y="481" width="1047" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585758361298" />
+    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2" timestamp="1585933664683">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585933664683" />
+    <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl" timestamp="1585759788834">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585759788833" />
+    <state width="1874" height="274" key="GridCell.Tab.0.bottom" timestamp="1585933540958">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="274" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
+    <state width="1874" height="274" key="GridCell.Tab.0.center" timestamp="1585933540958">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="274" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
+    <state width="1874" height="274" key="GridCell.Tab.0.left" timestamp="1585933540958">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="274" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
+    <state width="1874" height="274" key="GridCell.Tab.0.right" timestamp="1585933540958">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="274" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1585764434604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434604" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1585764434604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434604" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1585764434603">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434603" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1585764434604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434604" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1585931051777">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1585931051777" />
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585764643661">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585764643661" />
+    <state x="1079" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1585758011199">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1079" y="379" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585758011199" />
+    <state x="349" y="267" width="1372" height="601" key="new project wizard" timestamp="1585759821942">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="349" y="267" width="1372" height="601" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1585759821942" />
+  </component>
+</project>
