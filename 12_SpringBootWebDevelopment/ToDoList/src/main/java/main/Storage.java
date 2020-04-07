@@ -22,6 +22,7 @@ public class Storage
     {
         int id = currentId++;
         toDo.setId(id);
+        toDo.setStatus();
         toDos.put(id, toDo);
 
         return id;
