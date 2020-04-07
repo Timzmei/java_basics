@@ -1,10 +1,15 @@
 $(function(){
 
     const appendToDo = function(data){
-        var todoCode = '<a href="#" class="todo-link" data-id="' +
-            data.id + '">' + data.name + '</a><br>';
-        $('#todo-list')
-            .append('<div>' + todoCode + '</div>');
+//        var todoCode = '<a href="#" class="todo-link" data-id="' +
+//            data.id + '">' + data.name + '</a><br>';
+//        $('#todo-list')
+//            .append('<div>' + todoCode + '</div>');
+        var todoCode2 = '<li>' + data.name + '<span class="close">×</span></li>';
+
+        $('#myUL')
+                    .append(todoCode2);
+
     };
 
     //Loading books on load page
@@ -71,5 +76,13 @@ $(function(){
         });
         return false;
     });
+
+    // Add a "checked" symbol when clicking on a list item
+    var list = document.querySelector('ul');
+    list.addEventListener('click', function(ev) {
+      if (ev.target.tagName === 'LI') {
+        ev.target.classList.toggle('checked');
+      }
+    }, false);
 
 });

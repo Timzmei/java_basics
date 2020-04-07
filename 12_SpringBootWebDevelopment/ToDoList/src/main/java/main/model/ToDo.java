@@ -6,7 +6,7 @@ public class ToDo
 {
     private int id;
     private String name;
-    private Date date;
+    private int status;
     private String description;
 
     public int getId() {
@@ -25,12 +25,17 @@ public class ToDo
         this.name = name;
     }
 
-    public Date getDate() {
-        return date;
+    public int getStatus() {
+        return status;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setStatus() {
+        if(getStatus() == 0){
+            status = 1;
+        }
+        else {
+            status = 0;
+        }
     }
 
     public String getDescription() {

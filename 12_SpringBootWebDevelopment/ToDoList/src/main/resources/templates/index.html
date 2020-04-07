@@ -19,14 +19,19 @@
         <button id="save-todo">Сохранить</button>
     </form>
 </div>
-<h1>ToDo List (<span th:text="${todoCount}">0</span>)</h1>
+<h1>ToDo List</h1>
 <button id="show-add-todo-form">Добавить задачу</button>
 <br><br>
 <div id="todo-list">
     <div th:each="todo : ${list}">
-        <a href="#" class="todo-link" th:attr="data-id=${todo.id}" th:text="${todo.name}"></a>
+        <a href="#" class="todo-link" th:attr="data-id=${todo.id}" th:text="${todo.name}"><span class="close">×</span></a>
     </div>
+
 </div>
+
+<ul id="myUL">
+</ul>
+
 <p th:text="${someParameter}"></p>
 </body>
 </html>
