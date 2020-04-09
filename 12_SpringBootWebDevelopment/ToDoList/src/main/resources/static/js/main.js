@@ -5,7 +5,7 @@ $(function(){
 //            data.id + '">' + data.name + '</a><br>';
 //        $('#todo-list')
 //            .append('<div>' + todoCode + '</div>');
-        var todoCode2 = '<li>' + data.name + '<span class="close">×</span></li>';
+        var todoCode2 = '<li style=" "><a href="#" class="todo-link" data-id="' + data.id + '">' + data.name + '</a><br><span class="close">×</span></li>';
 
         $('#myUL')
                     .append(todoCode2);
@@ -41,13 +41,13 @@ $(function(){
             url: '/list/' + todoId,
             success: function(response)
             {
-                var code = '<span>Год выпуска:' + response.year + '</span>';
-                link.parent().append(code);
+                var code = '<span>Описание:' + response.description + '</span>';
+                link.parent().toggle(code);
             },
             error: function(response)
             {
                 if(response.status == 404) {
-                    alert('Книга не найдена!');
+                    alert('Описание отсутствует');
                 }
             }
         });
@@ -76,6 +76,27 @@ $(function(){
         });
         return false;
     });
+
+    // Create a "close" button and append it to each list item
+    var myNodelist = document.getElementsByTagName("LI");
+    var i;
+    for (i = 0; i < myNodelist.length; i++) {
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close";
+      span.appendChild(txt);
+      myNodelist[i].appendChild(span);
+    }
+
+    // Click on a close button to hide the current list item
+    var close = document.getElementsByClassName("close");
+    var i;
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
 
     // Add a "checked" symbol when clicking on a list item
     var list = document.querySelector('ul');
