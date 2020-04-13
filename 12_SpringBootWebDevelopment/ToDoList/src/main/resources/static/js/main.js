@@ -42,7 +42,7 @@ $(function(){
             success: function(response)
             {
                 var code = '<span>Описание:' + response.description + '</span>';
-                link.parent().toggle(code);
+                link.parent().append(code);
             },
             error: function(response)
             {

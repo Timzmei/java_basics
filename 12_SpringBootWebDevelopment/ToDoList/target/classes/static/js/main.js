@@ -1,49 +1,53 @@
 $(function(){
 
-    const appendBook = function(data){
-        var bookCode = '<a href="#" class"book-link" data-id="' +
-        data.id + '">' + data.name + '</a>' +
-        'Год выпуска: ' + data.year;;
-        $('#todo-list')
-            .append('<div>' + bookCode + '</div>');
+    const appendToDo = function(data){
+//        var todoCode = '<a href="#" class="todo-link" data-id="' +
+//            data.id + '">' + data.name + '</a><br>';
+//        $('#todo-list')
+//            .append('<div>' + todoCode + '</div>');
+        var todoCode2 = '<li style=" "><a href="#" class="todo-link" data-id="' + data.id + '">' + data.name + '</a><br><span class="close">×</span></li>';
+
+        $('#myUL')
+                    .append(todoCode2);
+
     };
 
     //Loading books on load page
     $.get('/list/', function(response)
     {
         for(i in response) {
-            appendBook(response[i]);
+            appendToDo(response[i]);
         }
     });
 
     //Show adding book form
-    $('#show-add-book-form').click(function(){
-        $('#book-form').css('display', 'flex');
+    $('#show-add-todo-form').click(function(){
+        $('#todo-form').css('display', 'flex');
     });
 
     //Closing adding book form
-    $('#book-form').click(function(event){
+    $('#todo-form').click(function(event){
         if(event.target === this) {
             $(this).css('display', 'none');
         }
     });
 
     //Getting book
-    $(document).on('click', '.book-link', function(){
+    $(document).on('click', '.todo-link', function(){
         var link = $(this);
-        var bookId = link.data('id');
+        var todoId = link.data('id');
         $.ajax({
             method: "GET",
-            url: '/link/' + bookId,
+            url: '/list/' + todoId,
             success: function(response)
             {
-                var code = '<span>Год выпуска:' + response.year + '</span>';
+                var code = '<span>Описание:' + response.description + '</span>';
                 link.parent().append(code);
             },
             error: function(response)
             {
                 if(response.status == 404) {
-                    alert('Книга не найдена!');
+                    alert('Описание отсутствует');
                 }
             }
         });
@@ -51,26 +55,55 @@ $(function(){
     });
 
     //Adding book
-    $('#save-book').click(function()
+    $('#save-todo').click(function()
     {
-        var data = $('#book-form form').serialize();
+        var data = $('#todo-form form').serialize();
         $.ajax({
             method: "POST",
             url: '/list/',
             data: data,
             success: function(response)
             {
-                $('#book-form').css('display', 'none');
-                var book = {};
-                book.id = response;
-                var dataArray = $('#book-form form').serializeArray();
+                $('#todo-form').css('display', 'none');
+                var todo = {};
+                todo.id = response;
+                var dataArray = $('#todo-form form').serializeArray();
                 for(i in dataArray) {
-                    book[dataArray[i]['name']] = dataArray[i]['value'];
+                    todo[dataArray[i]['name']] = dataArray[i]['value'];
                 }
-                appendBook(book);
+                appendToDo(todo);
             }
         });
         return false;
     });
+
+    // Create a "close" button and append it to each list item
+    var myNodelist = document.getElementsByTagName("LI");
+    var i;
+    for (i = 0; i < myNodelist.length; i++) {
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close";
+      span.appendChild(txt);
+      myNodelist[i].appendChild(span);
+    }
+
+    // Click on a close button to hide the current list item
+    var close = document.getElementsByClassName("close");
+    var i;
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+
+    // Add a "checked" symbol when clicking on a list item
+    var list = document.querySelector('ul');
+    list.addEventListener('click', function(ev) {
+      if (ev.target.tagName === 'LI') {
+        ev.target.classList.toggle('checked');
+      }
+    }, false);
 
 });
