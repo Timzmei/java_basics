@@ -23,6 +23,12 @@ public class ToDoController
         return Storage.addToDo(toDo);
     }
 
+    @PutMapping("/list/")
+    public int edit(ToDo toDo)
+    {
+        return Storage.editToDo(toDo);
+    }
+
     @GetMapping("/list/{id}")
     public ResponseEntity get(@PathVariable int id)
     {

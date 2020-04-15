@@ -5,7 +5,7 @@ $(function(){
 //            data.id + '">' + data.name + '</a><br>';
 //        $('#todo-list')
 //            .append('<div>' + todoCode + '</div>');
-        var todoCode2 = '<li style=" "><a href="#" class="todo-link" data-id="' + data.id + '">' + data.name + '</a><br><span class="close">×</span></li>';
+        var todoCode2 = '<li style=" " class="todo-link" data-id="' + data.id + '">' + data.name + '<span class="close">×</span></li>';
 
         $('#myUL')
                     .append(todoCode2);
@@ -25,8 +25,16 @@ $(function(){
         $('#todo-form').css('display', 'flex');
     });
 
+
+
     //Closing adding book form
     $('#todo-form').click(function(event){
+        if(event.target === this) {
+            $(this).css('display', 'none');
+        }
+    });
+
+    $('#todo-form-edit').click(function(event){
         if(event.target === this) {
             $(this).css('display', 'none');
         }
@@ -36,19 +44,47 @@ $(function(){
     $(document).on('click', '.todo-link', function(){
         var link = $(this);
         var todoId = link.data('id');
+
         $.ajax({
             method: "GET",
             url: '/list/' + todoId,
             success: function(response)
             {
-                var code = '<span>Описание:' + response.description + '</span>';
-                link.parent().append(code);
+               $('#todo-form-edit').css('display', 'flex');
+               $('#todo-form-edit').find("input[name=name]").val(response.name);
+               $('#todo-form-edit').find("input[name=description]").val(response.description);
+
+//                var code = '<span>Описание:' + response.description + '</span>';
+//                link.parent().append(code);
             },
             error: function(response)
             {
                 if(response.status == 404) {
                     alert('Описание отсутствует');
                 }
+            }
+        });
+        return false;
+    });
+
+    //Edit book
+    $('#save-todo-edit').click(function()
+    {
+        var data = $('#todo-form-edit form').serialize();
+        $.ajax({
+            method: "PUT",
+            url: '/list/',
+            data: data,
+            success: function(response)
+            {
+                $('#todo-form').css('display', 'none');
+                var todo = {};
+                todo.id = response;
+                var dataArray = $('#todo-form form').serializeArray();
+                for(i in dataArray) {
+                    todo[dataArray[i]['name']] = dataArray[i]['value'];
+                }
+                appendToDo(todo);
             }
         });
         return false;

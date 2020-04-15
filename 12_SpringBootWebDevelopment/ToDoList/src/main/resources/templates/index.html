@@ -19,6 +19,20 @@
         <button id="save-todo">Сохранить</button>
     </form>
 </div>
+<div id="todo-form-edit">
+    <form>
+        <h2>Редактирование задачи</h2>
+        <label>Название задачи:</label>
+        <input type="text" name="name" value="">
+        <label>Описание:</label>
+        <input type="text" name="description" value="">
+        <hr>
+        <button id="save-todo-edit">Сохранить</button>
+    </form>
+</div>
+
+
+
 <h1>ToDo List</h1>
 <button id="show-add-todo-form">Добавить задачу</button>
 <br><br>
@@ -36,5 +50,6 @@
 </ul>
 
 <p th:text="${someParameter}"></p>
+
 </body>
 </html>
