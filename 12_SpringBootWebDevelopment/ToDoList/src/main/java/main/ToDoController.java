@@ -24,9 +24,15 @@ public class ToDoController
     }
 
     @PutMapping("/list/")
-    public int edit(ToDo toDo)
+    public ToDo edit(ToDo toDo)
     {
         return Storage.editToDo(toDo);
+    }
+
+    @PutMapping("/list/{id}")
+    public void delete(@PathVariable int id)
+    {
+        Storage.deleteToDo(id);
     }
 
     @GetMapping("/list/{id}")

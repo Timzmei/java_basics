@@ -5,12 +5,17 @@ $(function(){
 //            data.id + '">' + data.name + '</a><br>';
 //        $('#todo-list')
 //            .append('<div>' + todoCode + '</div>');
-        var todoCode2 = '<li style=" " class="todo-link" data-id="' + data.id + '">' + data.name + '<span class="close">×</span></li>';
+        var todoCode2 = '<li style=" "><a href="#" class="todo-link" data-id="' +
+        data.id + '">' + data.name + '</a><br>' +
+        '<span class="close">×</span>' +
+        '</li>';
 
         $('#myUL')
                     .append(todoCode2);
 
     };
+
+    var dataId;
 
     //Loading books on load page
     $.get('/list/', function(response)
@@ -49,10 +54,13 @@ $(function(){
             method: "GET",
             url: '/list/' + todoId,
             success: function(response)
+
             {
                $('#todo-form-edit').css('display', 'flex');
                $('#todo-form-edit').find("input[name=name]").val(response.name);
                $('#todo-form-edit').find("input[name=description]").val(response.description);
+               dataId = response.id;
+//               console.log('. display = ' + dataId);
 
 //                var code = '<span>Описание:' + response.description + '</span>';
 //                link.parent().append(code);
@@ -70,21 +78,25 @@ $(function(){
     //Edit book
     $('#save-todo-edit').click(function()
     {
+
         var data = $('#todo-form-edit form').serialize();
+        data = data + '&id=' + dataId;
+//        console.log('. display = ' + data);
+
+//        if(data.name == null){
+//        return false;
+//        }
         $.ajax({
             method: "PUT",
             url: '/list/',
             data: data,
             success: function(response)
             {
-                $('#todo-form').css('display', 'none');
-                var todo = {};
-                todo.id = response;
-                var dataArray = $('#todo-form form').serializeArray();
-                for(i in dataArray) {
-                    todo[dataArray[i]['name']] = dataArray[i]['value'];
-                }
-                appendToDo(todo);
+                $('#todo-form-edit').css('display', 'none');
+                console.log('. display = ' + response.id + ' ' + response.name);
+
+                $('a[data-id="' + response.id + '"]').text(response.name);
+
             }
         });
         return false;
@@ -94,6 +106,9 @@ $(function(){
     $('#save-todo').click(function()
     {
         var data = $('#todo-form form').serialize();
+        if(data.name = null){
+        return false;
+        }
         $.ajax({
             method: "POST",
             url: '/list/',
@@ -124,22 +139,36 @@ $(function(){
       myNodelist[i].appendChild(span);
     }
 
-    // Click on a close button to hide the current list item
-    var close = document.getElementsByClassName("close");
-    var i;
-    for (i = 0; i < close.length; i++) {
-      close[i].onclick = function() {
-        var div = this.parentElement;
-        div.style.display = "none";
-      }
-    }
+    // Click on a close button to delete the current list item
+    $(document).on('click', '.close', function(){
+    var link = $(this);
+    var todoId = link.siblings('.todo-link').data('id');
 
-    // Add a "checked" symbol when clicking on a list item
-    var list = document.querySelector('ul');
-    list.addEventListener('click', function(ev) {
-      if (ev.target.tagName === 'LI') {
-        ev.target.classList.toggle('checked');
-      }
-    }, false);
+        $.ajax({
+            method: "PUT",
+            url: '/list/' + todoId,
+            success: function(response)
+            {
+
+                link.parent().remove(); //Удаление родительского элемента
+
+            }
+
+
+        });
+
+
+
+    return false;
+    });
+
+
+//    // Add a "checked" symbol when clicking on a list item
+//    var list = document.querySelector('ul');
+//    list.addEventListener('click', function(ev) {
+//      if (ev.target.tagName === 'LI') {
+//        ev.target.classList.toggle('checked');
+//      }
+//    }, false);
 
 });
