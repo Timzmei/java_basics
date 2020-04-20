@@ -28,19 +28,25 @@ public class Storage
         return id;
     }
 
-//    public static int editToDo(ToDo toDo)
-//    {
-//        int id = toDo.getId();
+    public static ToDo editToDo(ToDo toDo)
+    {
+        int id = toDo.getId();
 //        toDo.setStatus();
-//        toDos.put(id, toDo);
-//
-//        return id;
-//    }
+        toDos.replace(id, toDo);
+
+        return toDo;
+    }
 
     public static ToDo getToDo(int todoId){
         if(toDos.containsKey(todoId)){
             return toDos.get(todoId);
         }
         return null;
+    }
+
+    public static void deleteToDo(int todoId){
+        if(toDos.containsKey(todoId)){
+            toDos.remove(todoId);
+        }
     }
 }
