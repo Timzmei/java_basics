@@ -145,7 +145,7 @@ $(function(){
     var todoId = link.siblings('.todo-link').data('id');
 
         $.ajax({
-            method: "PUT",
+            method: "DELETE",
             url: '/list/' + todoId,
             success: function(response)
             {
