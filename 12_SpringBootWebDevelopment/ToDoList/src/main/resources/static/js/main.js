@@ -18,12 +18,12 @@ $(function(){
     var dataId;
 
     //Loading books on load page
-    $.get('/list/', function(response)
-    {
-        for(i in response) {
-            appendToDo(response[i]);
-        }
-    });
+//    $.get('/list/', function(response)
+//    {
+//        for(i in response) {
+//            appendToDo(response[i]);
+//        }
+//    });
 
     //Show adding book form
     $('#show-add-todo-form').click(function(){
