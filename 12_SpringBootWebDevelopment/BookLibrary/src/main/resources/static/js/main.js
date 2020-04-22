@@ -31,6 +31,7 @@ $(function(){
     $(document).on('click', '.book-link', function(){
         var link = $(this);
         var bookId = link.data('id');
+
         $.ajax({
             method: "GET",
             url: '/books/' + bookId,

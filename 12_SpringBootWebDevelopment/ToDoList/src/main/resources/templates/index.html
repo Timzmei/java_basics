@@ -21,7 +21,7 @@
 </div>
 <div id="todo-form-edit">
     <form>
-        <h2>Задача</h2>
+        <h2>ТуДушка</h2>
         <label>Название задачи:</label>
         <input type="text" name="name" value="">
         <label>Описание:</label>
@@ -33,20 +33,15 @@
 
 
 
-<h1>ToDo List</h1>
-<button id="show-add-todo-form">Добавить задачу</button>
+<h1>Список ТуДушек</h1>
+<button id="show-add-todo-form">Добавить ТуДушку</button>
 <br><br>
-<!--<div id="todo-list">-->
-<!--    <div th:each="todo : ${list}">-->
 
-
-<!--        <a href="#" class="todo-link" th:attr="data-id=${todo.id}" th:text="${todo.name}"><span class="close">×</span></a>-->
-<!--    </div>-->
-
-<!--</div>-->
 
 <ul id="myUL">
-<!--    <li style=" "><a href="#" class="todo-link" data-id="1">hgbiuygb</a><br></li>-->
+    <li th:each="todo : ${list}" style=" ">
+        <a href="#" class="todo-link" th:attr="data-id=${todo.id}" th:text="${todo.name}"></a><br>
+    </li>
 </ul>
 
 <p th:text="${someParameter}"></p>

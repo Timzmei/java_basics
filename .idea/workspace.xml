@@ -1,28 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="ToDoList рабочая версия 03.04.2020">
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/ToDoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/model/ToDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js/jquery-3.4.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/jquery-3.4.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/jquery-3.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/DefaultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/java/main/DefaultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/main/DefaultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/main/DefaultController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,36 +131,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="KEEP" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1Zsw1snZzrOaV0O27PHmuRscdOh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/12_SpringBootWebDevelopment" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/js" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main" />
-      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -131,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585763135452</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ToDoList done 21.04.2020">
+      <created>1587411884372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587411884372</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ToDoList рабочая версия 22.04.2020">
+      <created>1587581486890</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587581486890</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,9 +237,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -153,6 +249,16 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="second" />
                 </option>
               </RecentGroup>
@@ -161,10 +267,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ToDoList done" />
     <MESSAGE value="ToDoList adjusted" />
+    <MESSAGE value="ToDoList рабочая версия 21.04.2020" />
+    <MESSAGE value="ToDoList done 21.04.2020" />
+    <MESSAGE value="ToDoList рабочая версия 22.04.2020" />
     <MESSAGE value="ToDoList рабочая версия 03.04.2020" />
     <option name="LAST_COMMIT_MESSAGE" value="ToDoList рабочая версия 03.04.2020" />
   </component>
@@ -185,54 +295,70 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="436" y="481" width="1047" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585758361298" />
-    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2" timestamp="1585933664683">
+    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2" timestamp="1587583924948">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585933664683" />
+    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587583924948" />
+    <state width="752" height="482" key="Diff.GoToChangePopup" timestamp="1587491058050">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="752" height="482" key="Diff.GoToChangePopup/0.27.1920.1053@0.27.1920.1053" timestamp="1587491058050" />
+    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1587491101069">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491101069" />
     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl" timestamp="1585759788834">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585759788833" />
-    <state width="1874" height="274" key="GridCell.Tab.0.bottom" timestamp="1585933540958">
+    <state width="860" height="166" key="GridCell.Tab.0.bottom" timestamp="1587583925035">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
-    <state width="1874" height="274" key="GridCell.Tab.0.center" timestamp="1585933540958">
+    <state width="860" height="166" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587583925035" />
+    <state width="860" height="166" key="GridCell.Tab.0.center" timestamp="1587583925034">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
-    <state width="1874" height="274" key="GridCell.Tab.0.left" timestamp="1585933540958">
+    <state width="860" height="166" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587583925034" />
+    <state width="860" height="166" key="GridCell.Tab.0.left" timestamp="1587583925034">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
-    <state width="1874" height="274" key="GridCell.Tab.0.right" timestamp="1585933540958">
+    <state width="860" height="166" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587583925034" />
+    <state width="860" height="166" key="GridCell.Tab.0.right" timestamp="1587583925035">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="274" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585933540958" />
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1585764434604">
+    <state width="860" height="166" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587583925035" />
+    <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434604" />
-    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1585764434604">
+    <state width="1874" height="240" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587492850276" />
+    <state width="1874" height="240" key="GridCell.Tab.1.center" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434604" />
-    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1585764434603">
+    <state width="1874" height="240" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587492850276" />
+    <state width="1874" height="240" key="GridCell.Tab.1.left" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434603" />
-    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1585764434604">
+    <state width="1874" height="240" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587492850276" />
+    <state width="1874" height="240" key="GridCell.Tab.1.right" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585764434604" />
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1585931051777">
+    <state width="1874" height="240" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587492850276" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1586974203009">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1585931051777" />
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585764643661">
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1586974203009" />
+    <state x="100" y="127" width="1720" height="853" key="ShowDiffWithBranchDialog" timestamp="1587491548692">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1585764643661" />
+    <state x="100" y="127" width="1720" height="853" key="ShowDiffWithBranchDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491548692" />
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1587581500450">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1587581500450" />
+    <state x="567" y="270" width="776" height="573" key="VcsDiffUtil.ChangesDialog" timestamp="1587491110506">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="567" y="270" width="776" height="573" key="VcsDiffUtil.ChangesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491110506" />
     <state x="1079" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1585758011199">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
