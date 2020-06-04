@@ -19,6 +19,7 @@ public class Main {
     private static final int USERS = 1000;
 
 
+    
     // Также мы добавим задержку между посещениями
     private static final int SLEEP = 100; // 1 миллисекунда
 
