@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" filepath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" filepath="$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" filepath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" filepath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics.iml" filepath="$PROJECT_DIR$/.idea/java_basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" filepath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" />
     </modules>
