@@ -1,0 +1,705 @@
+Index: 13_NoSQL/Redis/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>org.example</groupId>\n    <artifactId>Redis</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n    <dependencies>\n        <dependency>\n            <groupId>org.redisson</groupId>\n            <artifactId>redisson</artifactId>\n            <version>3.11.4</version>\n        </dependency>\n    </dependencies>\n\n\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 13_NoSQL/Redis/pom.xml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ 13_NoSQL/Redis/pom.xml	(date 1591646137567)
+@@ -18,4 +18,4 @@
+ 
+ 
+ 
+-</project>
+\ No newline at end of file
++</project>
+Index: 13_NoSQL/ MongoDB_Shop/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>org.example</groupId>\n    <artifactId>MongoDB_Shop</artifactId>\n    <version>1.0-SNAPSHOT</version>\n    <build>\n        <plugins>\n            <plugin>\n                <groupId>org.apache.maven.plugins</groupId>\n                <artifactId>maven-compiler-plugin</artifactId>\n                <configuration>\n                    <source>8</source>\n                    <target>8</target>\n                </configuration>\n            </plugin>\n        </plugins>\n    </build>\n\n    <dependencies>\n        <dependency>\n            <groupId>org.mongodb</groupId>\n            <artifactId>mongodb-driver-sync</artifactId>\n            <version>4.0.3</version>\n        </dependency>\n\n\n    </dependencies>\n\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 13_NoSQL/ MongoDB_Shop/pom.xml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ 13_NoSQL/ MongoDB_Shop/pom.xml	(date 1591646017690)
+@@ -31,4 +31,4 @@
+     </dependencies>
+ 
+ 
+-</project>
+\ No newline at end of file
++</project>
+Index: 13_NoSQL/Mongo/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>org.example</groupId>\n    <artifactId>Mongo</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n    <build>\n        <plugins>\n            <plugin>\n                <groupId>org.apache.maven.plugins</groupId>\n                <artifactId>maven-compiler-plugin</artifactId>\n                <configuration>\n                    <source>8</source>\n                    <target>8</target>\n                </configuration>\n            </plugin>\n        </plugins>\n    </build>\n\n    <dependencies>\n        <dependency>\n            <groupId>org.mongodb</groupId>\n            <artifactId>mongodb-driver-sync</artifactId>\n            <version>4.0.3</version>\n        </dependency>\n\n        <dependency>\n            <groupId>org.apache.commons</groupId>\n            <artifactId>commons-csv</artifactId>\n            <version>1.4</version>\n        </dependency>\n\n    </dependencies>\n\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 13_NoSQL/Mongo/pom.xml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ 13_NoSQL/Mongo/pom.xml	(date 1591646090907)
+@@ -37,4 +37,4 @@
+     </dependencies>
+ 
+ 
+-</project>
+\ No newline at end of file
++</project>
+Index: .idea/libraries/Maven__org_mongodb_bson_4_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mongodb_bson_4_0_3.xml	(date 1591646020607)
++++ .idea/libraries/Maven__org_mongodb_bson_4_0_3.xml	(date 1591646020607)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mongodb:bson:4.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/4.0.3/bson-4.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/4.0.3/bson-4.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/4.0.3/bson-4.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_3.xml	(date 1591646020673)
++++ .idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_3.xml	(date 1591646020673)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mongodb:mongodb-driver-sync:4.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/4.0.3/mongodb-driver-sync-4.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/4.0.3/mongodb-driver-sync-4.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/4.0.3/mongodb-driver-sync-4.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_3.xml	(date 1591646020640)
++++ .idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_3.xml	(date 1591646020640)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mongodb:mongodb-driver-core:4.0.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/4.0.3/mongodb-driver-core-4.0.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/4.0.3/mongodb-driver-core-4.0.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/4.0.3/mongodb-driver-core-4.0.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_apache_commons_commons_csv_1_4.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_apache_commons_commons_csv_1_4.xml	(date 1591646093530)
++++ .idea/libraries/Maven__org_apache_commons_commons_csv_1_4.xml	(date 1591646093530)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.apache.commons:commons-csv:1.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.4/commons-csv-1.4.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.4/commons-csv-1.4-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-csv/1.4/commons-csv-1.4-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"MavenProjectsManager\">\n    <option name=\"originalFiles\">\n      <list>\n        <option value=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/pom.xml\" />\n        <option value=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/pom.xml\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" project-jdk-name=\"11.0.6\" project-jdk-type=\"JavaSDK\" />\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ .idea/misc.xml	(date 1591645784577)
+@@ -5,8 +5,14 @@
+       <list>
+         <option value="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/pom.xml" />
+         <option value="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/pom.xml" />
++        <option value="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/pom.xml" />
++        <option value="$PROJECT_DIR$/13_NoSQL/Mongo/pom.xml" />
++        <option value="$PROJECT_DIR$/13_NoSQL/Redis/pom.xml" />
+       </list>
+     </option>
+   </component>
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11.0.6" project-jdk-type="JavaSDK" />
++  <component name="SuppressionsComponent">
++    <option name="suppComments" value="[]" />
++  </component>
+ </project>
+\ No newline at end of file
+Index: 12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\n    <content url=\"file://$MODULE_DIR$\">\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\n    </content>\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-web:2.1.4.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-logging:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-classic:1.2.3\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: ch.qos.logback:logback-core:1.2.3\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-to-slf4j:2.11.2\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.11.2\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:jul-to-slf4j:1.7.25\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: javax.annotation:javax.annotation-api:1.3.2\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-core:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-jcl:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.23\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-json:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.core:jackson-core:2.9.8\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.8\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.8\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-tomcat:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.16\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.16\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.16\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.hibernate.validator:hibernate-validator:6.0.14.Final\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: javax.validation:validation-api:2.0.1.Final\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.jboss.logging:jboss-logging:3.3.2.Final\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.fasterxml:classmate:1.4.0\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-web:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-beans:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-webmvc:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-aop:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-context:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-expression:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.1.4.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-aop:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.aspectj:aspectjweaver:1.9.2\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.3.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: com.zaxxer:HikariCP:3.2.0\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-jdbc:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: javax.transaction:javax.transaction-api:1.3\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: javax.xml.bind:jaxb-api:2.3.1\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: javax.activation:javax.activation-api:1.2.0\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.hibernate:hibernate-core:5.3.7.Final\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: javax.persistence:javax.persistence-api:2.2\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.javassist:javassist:3.23.1-GA\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: net.bytebuddy:byte-buddy:1.9.10\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: antlr:antlr:2.7.7\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.jboss:jandex:2.0.5.Final\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.dom4j:dom4j:2.1.1\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.data:spring-data-jpa:2.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.data:spring-data-commons:2.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-orm:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-tx:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework:spring-aspects:5.1.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: mysql:mysql-connector-java:8.0.15\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.springframework.boot:spring-boot-starter-thymeleaf:2.1.4.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.thymeleaf:thymeleaf-spring5:3.0.11.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.thymeleaf:thymeleaf:3.0.11.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.attoparser:attoparser:2.0.5.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.unbescape:unbescape:1.1.6.RELEASE\" level=\"project\" />\n    <orderEntry type=\"library\" name=\"Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.3.RELEASE\" level=\"project\" />\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ 12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml	(date 1591645401397)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+     <output url="file://$MODULE_DIR$/target/classes" />
+     <output-test url="file://$MODULE_DIR$/target/test-classes" />
+     <content url="file://$MODULE_DIR$">
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"CompilerConfiguration\">\n    <annotationProcessing>\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\n        <outputRelativeToContentRoot value=\"true\" />\n        <module name=\"toDoList\" />\n        <module name=\"BookLibrary\" />\n      </profile>\n    </annotationProcessing>\n    <bytecodeTargetLevel target=\"11\">\n      <module name=\"BookLibrary\" target=\"8\" />\n      <module name=\"toDoList\" target=\"8\" />\n    </bytecodeTargetLevel>\n  </component>\n  <component name=\"JavacSettings\">\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\n      <module name=\"BookLibrary\" options=\"-parameters\" />\n      <module name=\"toDoList\" options=\"-parameters\" />\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ .idea/compiler.xml	(date 1591646093500)
+@@ -7,11 +7,17 @@
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+         <module name="toDoList" />
++        <module name="Mongo" />
++        <module name="Redis" />
+         <module name="BookLibrary" />
++        <module name="MongoDB_Shop" />
+       </profile>
+     </annotationProcessing>
+     <bytecodeTargetLevel target="11">
+       <module name="BookLibrary" target="8" />
++      <module name="Mongo" target="8" />
++      <module name="MongoDB_Shop" target="8" />
++      <module name="Redis" target="1.5" />
+       <module name="toDoList" target="8" />
+     </bytecodeTargetLevel>
+   </component>
+Index: 14_Performance/CarNumberGenerator/CarNumberGenerator.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 14_Performance/CarNumberGenerator/CarNumberGenerator.iml	(date 1591644613993)
++++ 14_Performance/CarNumberGenerator/CarNumberGenerator.iml	(date 1591644613993)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectModuleManager\">\n    <modules>\n      <module fileurl=\"file://$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml\" filepath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml\" />\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/java_basics.iml\" filepath=\"$PROJECT_DIR$/.idea/java_basics.iml\" />\n      <module fileurl=\"file://$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml\" filepath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml\" />\n    </modules>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ .idea/modules.xml	(date 1591645784610)
+@@ -3,6 +3,9 @@
+   <component name="ProjectModuleManager">
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" filepath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" />
++      <module fileurl="file://$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" filepath="$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" />
++      <module fileurl="file://$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" filepath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" />
++      <module fileurl="file://$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" filepath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics.iml" filepath="$PROJECT_DIR$/.idea/java_basics.iml" />
+       <module fileurl="file://$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" filepath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" />
+     </modules>
+Index: .idea/$PROJECT_FILE$
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/$PROJECT_FILE$	(date 1591644619060)
++++ .idea/$PROJECT_FILE$	(date 1591644619060)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AnalysisProjectProfileManager">
++    <option name="PROJECT_PROFILE" />
++    <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
++    <list size="0" />
++  </component>
++  <component name="SuppressionsComponent">
++    <option name="suppComments" value="[]" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4ba41dba-1ecd-4b9d-b69b-50ff655c2838\" name=\"Default Changelist\" comment=\"ToDoList рабочая версия 03.04.2020\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/styles.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/styles.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/css/styles.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/css/styles.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/templates/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/templates/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CompilerWorkspaceConfiguration\">\n    <option name=\"MAKE_PROJECT_ON_SAVE\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"HTML File\" />\n        <option value=\"Interface\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\n      <list>\n        <option value=\"Guliev Timur &lt;timur.guliev@gmail.com&gt;\" />\n      </list>\n    </option>\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"RESET_MODE\" value=\"KEEP\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1Zsw1snZzrOaV0O27PHmuRscdOh\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/12_SpringBootWebDevelopment\" />\n    <property name=\"project.structure.last.edited\" value=\"Artifacts\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propCompiler\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources\" />\n      <recent name=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js\" />\n      <recent name=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css\" />\n      <recent name=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/js\" />\n      <recent name=\"$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Main\">\n    <configuration name=\"Main (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"main.Main\" />\n      <module name=\"BookLibrary\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"main.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"main.Main\" />\n      <module name=\"toDoList\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"main.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.Main (1)\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4ba41dba-1ecd-4b9d-b69b-50ff655c2838\" name=\"Default Changelist\" comment=\"\" />\n      <created>1585640897330</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1585640897330</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"ToDoList done\">\n      <created>1585651864397</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585651864398</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"ToDoList adjusted\">\n      <created>1585763135452</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1585763135452</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"ToDoList done 21.04.2020\">\n      <created>1587411884372</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587411884372</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"ToDoList рабочая версия 22.04.2020\">\n      <created>1587581486890</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1587581486890</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"RECENT_FILTERS\">\n      <map>\n        <entry key=\"Branch\">\n          <value>\n            <list>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"origin/master\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"master\" />\n                </option>\n              </RecentGroup>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"second\" />\n                </option>\n              </RecentGroup>\n            </list>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"ToDoList done\" />\n    <MESSAGE value=\"ToDoList adjusted\" />\n    <MESSAGE value=\"ToDoList рабочая версия 21.04.2020\" />\n    <MESSAGE value=\"ToDoList done 21.04.2020\" />\n    <MESSAGE value=\"ToDoList рабочая версия 22.04.2020\" />\n    <MESSAGE value=\"ToDoList рабочая версия 03.04.2020\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"ToDoList рабочая версия 03.04.2020\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"1018\" y=\"213\" width=\"847\" height=\"684\" key=\"#Project_Structure\" timestamp=\"1585645509072\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"1018\" y=\"213\" width=\"847\" height=\"684\" key=\"#Project_Structure/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1585645509072\" />\n    <state x=\"1264\" y=\"241\" width=\"374\" height=\"633\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1585772050731\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"1264\" y=\"241\" width=\"374\" height=\"633\" key=\"#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1585772050731\" />\n    <state x=\"1128\" y=\"221\" width=\"575\" height=\"675\" key=\"#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog\" timestamp=\"1585645652206\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"1128\" y=\"221\" width=\"575\" height=\"675\" key=\"#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1585645652206\" />\n    <state x=\"436\" y=\"481\" width=\"1047\" height=\"152\" key=\"#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog\" timestamp=\"1585758361298\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"436\" y=\"481\" width=\"1047\" height=\"152\" key=\"#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1585758361298\" />\n    <state x=\"509\" y=\"36\" width=\"949\" height=\"1044\" key=\"CommitChangelistDialog2\" timestamp=\"1587583924948\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"509\" y=\"36\" width=\"949\" height=\"1044\" key=\"CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587583924948\" />\n    <state width=\"752\" height=\"482\" key=\"Diff.GoToChangePopup\" timestamp=\"1587491058050\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state width=\"752\" height=\"482\" key=\"Diff.GoToChangePopup/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587491058050\" />\n    <state x=\"100\" y=\"127\" width=\"1720\" height=\"853\" key=\"DiffContextDialog\" timestamp=\"1587491101069\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"100\" y=\"127\" width=\"1720\" height=\"853\" key=\"DiffContextDialog/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587491101069\" />\n    <state x=\"937\" y=\"310\" width=\"422\" height=\"498\" key=\"FileChooserDialogImpl\" timestamp=\"1585759788834\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"937\" y=\"310\" width=\"422\" height=\"498\" key=\"FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1585759788833\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1587925512384\">\n      <screen x=\"0\" y=\"28\" width=\"1920\" height=\"1052\" />\n    </state>\n    <state width=\"1874\" height=\"346\" key=\"GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587839168582\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052\" timestamp=\"1587925512384\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.center\" timestamp=\"1587925512383\">\n      <screen x=\"0\" y=\"28\" width=\"1920\" height=\"1052\" />\n    </state>\n    <state width=\"1874\" height=\"346\" key=\"GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587839168582\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052\" timestamp=\"1587925512383\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.left\" timestamp=\"1587925512382\">\n      <screen x=\"0\" y=\"28\" width=\"1920\" height=\"1052\" />\n    </state>\n    <state width=\"1874\" height=\"346\" key=\"GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587839168581\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052\" timestamp=\"1587925512382\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.right\" timestamp=\"1587925512383\">\n      <screen x=\"0\" y=\"28\" width=\"1920\" height=\"1052\" />\n    </state>\n    <state width=\"1874\" height=\"346\" key=\"GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587839168582\" />\n    <state width=\"1874\" height=\"345\" key=\"GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052\" timestamp=\"1587925512383\" />\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1587492850276\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587492850276\" />\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.center\" timestamp=\"1587492850276\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587492850276\" />\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.left\" timestamp=\"1587492850276\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587492850276\" />\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.right\" timestamp=\"1587492850276\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state width=\"1874\" height=\"240\" key=\"GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587492850276\" />\n    <state x=\"449\" y=\"188\" width=\"1022\" height=\"737\" key=\"SettingsEditor\" timestamp=\"1586974203009\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"449\" y=\"188\" width=\"1022\" height=\"737\" key=\"SettingsEditor/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1586974203009\" />\n    <state x=\"100\" y=\"127\" width=\"1720\" height=\"853\" key=\"ShowDiffWithBranchDialog\" timestamp=\"1587491548692\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"100\" y=\"127\" width=\"1720\" height=\"853\" key=\"ShowDiffWithBranchDialog/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587491548692\" />\n    <state x=\"437\" y=\"460\" width=\"800\" height=\"535\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1587581500450\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"437\" y=\"460\" width=\"800\" height=\"535\" key=\"Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587581500450\" />\n    <state x=\"567\" y=\"270\" width=\"776\" height=\"573\" key=\"VcsDiffUtil.ChangesDialog\" timestamp=\"1587491110506\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"567\" y=\"270\" width=\"776\" height=\"573\" key=\"VcsDiffUtil.ChangesDialog/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1587491110506\" />\n    <state x=\"1079\" y=\"379\" key=\"com.intellij.ide.util.TipDialog\" timestamp=\"1585758011199\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"1079\" y=\"379\" key=\"com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1585758011199\" />\n    <state x=\"349\" y=\"267\" width=\"1372\" height=\"601\" key=\"new project wizard\" timestamp=\"1585759821942\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1053\" />\n    </state>\n    <state x=\"349\" y=\"267\" width=\"1372\" height=\"601\" key=\"new project wizard/0.27.1920.1053@0.27.1920.1053\" timestamp=\"1585759821942\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 74953196e14996ab2d2d9e4ce10354d63859c214)
++++ .idea/workspace.xml	(date 1591646020547)
+@@ -16,15 +16,34 @@
+         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </expand>
+-    <select />
++    <select>
++      <path>
++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
++      </path>
++    </select>
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="ToDoList рабочая версия 03.04.2020">
++      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/bookLibrary.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/ToDoList.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/styles.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/templates/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/css/styles.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/templates/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/13_NoSQL/Mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Mongo/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -55,7 +74,7 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-    <option name="RESET_MODE" value="KEEP" />
++    <option name="RESET_MODE" value="HARD" />
+   </component>
+   <component name="ProjectId" id="1Zsw1snZzrOaV0O27PHmuRscdOh" />
+   <component name="ProjectViewState">
+@@ -65,6 +84,7 @@
+   <component name="PropertiesComponent">
+     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$/12_SpringBootWebDevelopment" />
+@@ -82,7 +102,7 @@
+       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Main">
++  <component name="RunManager" selected="Application.Main (2)">
+     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="main.Main" />
+       <module name="BookLibrary" />
+@@ -96,6 +116,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="MongoDB_Shop" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="main.Main" />
+       <module name="toDoList" />
+@@ -111,6 +138,7 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Main (2)" />
+         <item itemvalue="Application.Main" />
+         <item itemvalue="Application.Main (1)" />
+       </list>
+@@ -163,7 +191,19 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="master" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -229,33 +269,33 @@
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+     <state width="752" height="482" key="Diff.GoToChangePopup/0.27.1920.1053@0.27.1920.1053" timestamp="1587491058050" />
+-    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1587491101069">
++    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1591645271901">
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+-    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491101069" />
++    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591645271901" />
+     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl" timestamp="1585759788834">
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585759788833" />
+-    <state width="1874" height="345" key="GridCell.Tab.0.bottom" timestamp="1587925512384">
+-      <screen x="0" y="28" width="1920" height="1052" />
++    <state width="1870" height="273" key="GridCell.Tab.0.bottom" timestamp="1591645571668">
++      <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+-    <state width="1874" height="346" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1587839168582" />
++    <state width="1870" height="273" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1591645571668" />
+     <state width="1874" height="345" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512384" />
+-    <state width="1874" height="345" key="GridCell.Tab.0.center" timestamp="1587925512383">
+-      <screen x="0" y="28" width="1920" height="1052" />
++    <state width="1870" height="273" key="GridCell.Tab.0.center" timestamp="1591645571667">
++      <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+-    <state width="1874" height="346" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1587839168582" />
++    <state width="1870" height="273" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1591645571667" />
+     <state width="1874" height="345" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
+-    <state width="1874" height="345" key="GridCell.Tab.0.left" timestamp="1587925512382">
+-      <screen x="0" y="28" width="1920" height="1052" />
++    <state width="1870" height="273" key="GridCell.Tab.0.left" timestamp="1591645571667">
++      <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+-    <state width="1874" height="346" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1587839168581" />
++    <state width="1870" height="273" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1591645571667" />
+     <state width="1874" height="345" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512382" />
+-    <state width="1874" height="345" key="GridCell.Tab.0.right" timestamp="1587925512383">
+-      <screen x="0" y="28" width="1920" height="1052" />
++    <state width="1870" height="273" key="GridCell.Tab.0.right" timestamp="1591645571667">
++      <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+-    <state width="1874" height="346" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587839168582" />
++    <state width="1870" height="273" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1591645571667" />
+     <state width="1874" height="345" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
+     <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1587492850276">
+       <screen x="0" y="27" width="1920" height="1053" />
+@@ -273,6 +313,10 @@
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+     <state width="1874" height="240" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1587492850276" />
++    <state x="493" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog" timestamp="1591645923480">
++      <screen x="0" y="27" width="1920" height="1053" />
++    </state>
++    <state x="493" y="211" width="924" height="691" key="Maven.ArtifactSearchDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591645923480" />
+     <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1586974203009">
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+@@ -293,9 +337,9 @@
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+     <state x="1079" y="379" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585758011199" />
+-    <state x="349" y="267" width="1372" height="601" key="new project wizard" timestamp="1585759821942">
++    <state x="349" y="267" width="1372" height="601" key="new project wizard" timestamp="1591645783719">
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+-    <state x="349" y="267" width="1372" height="601" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1585759821942" />
++    <state x="349" y="267" width="1372" height="601" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1591645783719" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: 14_Performance/VoteAnalyzer/VoteAnalyzer.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 14_Performance/VoteAnalyzer/VoteAnalyzer.iml	(date 1591644613993)
++++ 14_Performance/VoteAnalyzer/VoteAnalyzer.iml	(date 1591644613993)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="mysql-connector-java-5.1.38-bin" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: 12_SpringBootWebDevelopment/BookLibrary/bookLibrary.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 12_SpringBootWebDevelopment/BookLibrary/bookLibrary.iml	(date 1591645274783)
++++ 12_SpringBootWebDevelopment/BookLibrary/bookLibrary.iml	(date 1591645274783)
+@@ -0,0 +1,79 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
++    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.11.2" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
++    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.23" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.16" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.16" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.16" level="project" />
++    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.0.14.Final" level="project" />
++    <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
++    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.4.0" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.1.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:3.2.0" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: javax.transaction:javax.transaction-api:1.3" level="project" />
++    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.1" level="project" />
++    <orderEntry type="library" name="Maven: javax.activation:javax.activation-api:1.2.0" level="project" />
++    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.3.7.Final" level="project" />
++    <orderEntry type="library" name="Maven: javax.persistence:javax.persistence-api:2.2" level="project" />
++    <orderEntry type="library" name="Maven: org.javassist:javassist:3.23.1-GA" level="project" />
++    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.9.10" level="project" />
++    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
++    <orderEntry type="library" name="Maven: org.jboss:jandex:2.0.5.Final" level="project" />
++    <orderEntry type="library" name="Maven: org.dom4j:dom4j:2.1.1" level="project" />
++    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:2.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.15" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:2.1.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.11.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:3.0.11.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.3.RELEASE" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/qaplug_profiles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/qaplug_profiles.xml	(date 1591645274827)
++++ .idea/qaplug_profiles.xml	(date 1591645274827)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AnalysisProjectProfileManager">
++    <option name="PROJECT_PROFILE" value="Project Default" />
++    <option name="USE_PROJECT_LEVEL_SETTINGS" value="false" />
++    <scopes />
++    <profiles>
++      <profile profile_name="Project Default" version="1.0" is_locked="false" />
++    </profiles>
++    <list size="0" />
++  </component>
++</project>
+\ No newline at end of file
+Index: 12_SpringBootWebDevelopment/ToDoList/ToDoList.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 12_SpringBootWebDevelopment/ToDoList/ToDoList.iml	(date 1591645292490)
++++ 12_SpringBootWebDevelopment/ToDoList/ToDoList.iml	(date 1591645292490)
+@@ -0,0 +1,112 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.12.1" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.12.1" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" level="project" />
++    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.25" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.2" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.2" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.2" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.2" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.2" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.10.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.31" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.31" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.31" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-validation:2.2.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
++    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.0.18.Final" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.3.4" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.4.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
++    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.11.2" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
++    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.23" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.8" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.16" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.16" level="project" />
++    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.16" level="project" />
++    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.0.14.Final" level="project" />
++    <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
++    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
++    <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.4.0" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.2" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:3.2.0" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: javax.transaction:javax.transaction-api:1.3" level="project" />
++    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.1" level="project" />
++    <orderEntry type="library" name="Maven: javax.activation:javax.activation-api:1.2.0" level="project" />
++    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.3.7.Final" level="project" />
++    <orderEntry type="library" name="Maven: org.javassist:javassist:3.23.1-GA" level="project" />
++    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.9.10" level="project" />
++    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
++    <orderEntry type="library" name="Maven: org.jboss:jandex:2.0.5.Final" level="project" />
++    <orderEntry type="library" name="Maven: org.dom4j:dom4j:2.1.1" level="project" />
++    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:2.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.1.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.15" level="project" />
++    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:2.1.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.11.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:3.0.11.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.3.RELEASE" level="project" />
++    <orderEntry type="library" name="Maven: javax.persistence:javax.persistence-api:2.2" level="project" />
++  </component>
++</module>
+\ No newline at end of file
