@@ -1,4 +1,8 @@
 import com.mongodb.client.*;
+import com.mongodb.client.model.Accumulators;
+import com.mongodb.client.model.BsonField;
+import com.mongodb.client.model.Field;
+import com.mongodb.client.model.UnwindOptions;
 import org.bson.Document;
 
 import org.bson.BsonDocument;
@@ -12,6 +16,8 @@ import java.util.*;
 import java.util.function.Consumer;
 
 import java.io.IOException;
+import static com.mongodb.client.model.Aggregates.*;
+
 
 
 public class Main {
@@ -86,21 +92,21 @@ public class Main {
                     break;
                 }
                 switch (command) {
-                    case "ADD_SHOP":
+                    case "ADD_SHOP": // Добавить магазин
                         String shopName = textSplit[1];
                         addShop(shopName);
                         break;
-                    case "ADD_ITEM":
+                    case "ADD_ITEM": // Добавить товар
                         String itemName = textSplit[1];
                         int priceItem = Integer.parseInt(textSplit[2]);
                         addItem(itemName, priceItem);
                         break;
-                    case "SET_ITEM":
+                    case "SET_ITEM": // Выставить товар в магазин
                         itemName = textSplit[1];
                         shopName = textSplit[2];
                         setItem(itemName, shopName);
                         break;
-                    case "STATISTICS":
+                    case "STATISTICS": // Вывести статистику по магазинам
                         showStatistics();
                         break;
                     case "?":
@@ -118,6 +124,7 @@ public class Main {
 
     }
 
+    // Чтобы не забыть команды
     public static void printInstructions(){
 
         System.out.println("— Команда добавления магазина\n* ADD_SHOP имя_магазина - сначала идет название команды, а потом имя магазина, всегда одно слово, без пробелов");
@@ -134,82 +141,48 @@ public class Main {
                 "STATISTICS");
 
         System.out.println("— Выход\n" +
-                "end");
+                "end\n\n");
     }
 
+
     public static void addShop (String shopName) {
-        // Создаем магазин
         ArrayList<String> itemList = new ArrayList<>();
         Document shopDocument = new Document()
                 .append("name", shopName)
                 .append("itemList", itemList);
 
-        // Вставляем магазин в коллекцию
-
         if ((collection_shop.find(BsonDocument.parse("{name: {$eq: \"" + shopName + "\"}}")).first() == null)){
             collection_shop.insertOne(shopDocument);
-            System.out.println(collection_shop.find(BsonDocument.parse("{name: {$eq: \"" + shopName + "\"}}")).first());
         }
         else {
             System.out.println("Магазин " + shopName + " уже имеется. Придумайте новое название магазина");
         }
-
-
-
-
     }
 
 
     public static void addItem(String itemName, int priceItem) {
-        // Создаем товар
         Document itemDocument = new Document()
                 .append("name", itemName)
                 .append("price", priceItem);
 
-
         if ((collection_item.find(BsonDocument.parse("{name: {$eq: \"" + itemName + "\"}}")).first() == null)){
             collection_item.insertOne(itemDocument);
-            System.out.println(collection_item.find(BsonDocument.parse("{name: {$eq: \"" + itemName + "\"}}")).first());
         }
         else {
             System.out.println("Товар " + itemName + " уже имеется. Придумайте новый товар");
         }
-
-        // Вставляем товар в коллекцию
-
     }
 
     public static void setItem(String itemName, String shopName){
         BsonDocument queryItem = BsonDocument.parse("{name: {$eq: \"" + itemName + "\"}}");
         BsonDocument queryShop = BsonDocument.parse("{name: {$eq: \"" + shopName + "\"}}");
-        ArrayList<String> oldShopItemList = new ArrayList<>();
-        ArrayList<String> newShopItemList = new ArrayList<>();
-
         try {
             if (!(collection_item.find(queryItem).first() == null) && !(collection_shop.find(queryShop).first() == null)) {
-
-                System.out.println(collection_shop.find(queryShop).first());
-
-                if (!((collection_shop.find(queryShop).first().getList("itemList", Arrays.class).size() == 0))) {
-
-
-                    oldShopItemList.addAll(((ArrayList<String>)collection_shop.find(queryShop).first().get("itemList")));
-                    newShopItemList.addAll(oldShopItemList);
-                    newShopItemList.add(itemName);
-
-                    collection_shop.findOneAndUpdate(queryShop, BsonDocument.parse("{$set: {itemList: \"" + newShopItemList + "\"}}"));
-//                    System.out.println(collection_shop.find(queryShop).first());
+                if (!((collection_shop.find(queryShop).first().getList("itemList", String.class).size() == 0))) {
+                    collection_shop.findOneAndUpdate(queryShop, BsonDocument.parse("{$addToSet: {itemList: \"" + itemName + "\"}}"));
                 }
                 else {
-
-                    newShopItemList.add(itemName);
-
-                    collection_shop.findOneAndUpdate(queryShop, convertnewShopItemList));
-
-
-                    collection_shop.findOneAndUpdate(queryShop, BsonDocument.parse("{$set: {itemList: \"" + newShopItemList + "\"}}"));
-//                    System.out.println(collection_shop.find(queryShop).first());
-
+                    collection_shop.findOneAndUpdate(queryShop, BsonDocument.parse("{$set: {itemList: [\"" + itemName + "\"]}}"));
                 }
             }
             else {
@@ -219,50 +192,92 @@ public class Main {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-
-
-
-
     }
 
     public static void showStatistics(){
+        // Общее количество товаров
 
-        Bson lookup = new Document("$lookup",
-                new Document("from", "collection_item")
-                        .append("localField", "itemList")
-                        .append("foreignField", "price")
-                        .append("as", "look_price"));
-
-        List<Bson> filters = new ArrayList<>();
-        filters.add(lookup);
-
-        AggregateIterable<Document> it = collection_shop.aggregate(filters);
-
-        for (Document row : it) {
-            System.out.println(row.toJson());
-        }
-
-//        System.out.println(collection_shop.aggregate(Arrays.asList(match())));
-
-
-//        Bson lookup = new Document("$lookup",
-//                new Document("from", "coll_two")
-//                        .append("localField", "foreign_id")
-//                        .append("foreignField", "_id")
-//                        .append("as", "look_coll"));
+//        AggregateIterable output = collection_shop.aggregate(Arrays.asList(
+//                unwind("$itemList"),
+//                sortByCount("$name")
+//        ));
 //
-//        Bson match = new Document("$match",
-//                new Document("look_coll.actif", true));
-//
-//        List<Bson> filters = new ArrayList<>();
-//        filters.add(lookup);
-//        filters.add(match);
-//
-//        AggregateIterable<Document> it = db.getCollection("coll_one").aggregate(filters);
-//
-//        for (Document row : it) {
-//            System.out.println(row.toJson());
+//        for (Object document : output)
+//        {
+//            System.out.println(document);
 //        }
+        System.out.println("\n\nОбщее количество товаров в каждом магазине\n");
+
+        collection_shop.aggregate(Arrays.asList(unwind("$itemList"), sortByCount("$name"))).forEach((Consumer<Document>) document -> {
+            System.out.println("Наименование магазина: " + document.get("_id") + " - количество товара: " + document.get("count"));
+        });
+
+        // Среднюю цену товара
+
+        System.out.println("\n\nСредняя цена товара в каждом магазине:\n");
+
+        collection_shop.aggregate(Arrays.asList(
+                lookup("ItemListDemo", "itemList", "name", "priceItem"),
+                unwind("$priceItem"),
+                group("$name", Accumulators.avg("avgPriceItem","$priceItem.price"))
+        )).forEach((Consumer<Document>) document -> System.out.println("Наименование магазина: " + document.get("_id") + " - Средняя цена товара: " + document.get("avgPriceItem")));
+
+        // Самый дорогой и самый дешевый товар
+
+        System.out.println("\n\nСамый дорогой и самый дешевый товар в каждом магазине:\n");
+
+        collection_shop.aggregate(Arrays.asList(
+                lookup("ItemListDemo", "itemList", "name", "priceItem"),
+                unwind("$priceItem"),
+                sort(new Document("name", 1)
+                        .append("priceItem.price", 1)),
+                group("$name", Arrays.asList(
+                        Accumulators.first("minNameItem", "$priceItem.name"),
+                        Accumulators.last("maxNameItem", "$priceItem.name"),
+                        Accumulators.min("minPriceItem", "$priceItem.price"),
+                        Accumulators.max("maxPriceItem", "$priceItem.price")
+                ))
+        )).forEach((Consumer<Document>) document ->
+                System.out.println("Наименование магазина: " + document.get("_id") + "\n\t " +
+                        "- Cамый дешевый товар: " + document.get("minNameItem") + " - " + document.get("minPriceItem") + " руб." + "\n\t " +
+                        "- Cамый дорогой товар: " + document.get("maxNameItem") + " - " + document.get("maxPriceItem") + " руб."));
+
+
+
+
+        // Количество товаров, дешевле 100 рублей.
+        System.out.println("\n\nКоличество товаров, дешевле 100 рублей в каждом магазине:\n");
+
+
+        collection_shop.aggregate(Arrays.asList(
+                lookup("ItemListDemo", "itemList", "name", "priceItem"),
+                unwind("$priceItem"),
+                match(new Document("priceItem.price",new Document("$lt", 100))),
+                addFields(new Field<>("count", 1)),
+                group("$name",Accumulators.sum("count", "$count"))
+        )).forEach((Consumer<Document>) document ->
+                System.out.println("Наименование магазина: " + document.get("_id") + "\n\t " +
+                        "- Количество товаров, дешевле 100 рублей: " + document.get("count")));
+
+
+
+//        AggregateIterable output = collection_shop.aggregate(Arrays.asList(
+//                lookup("ItemListDemo", "itemList", "name", "priceItem"),
+//                unwind("$priceItem"),
+//                match(new Document("priceItem.price",new Document("$lt", 100))),
+//                addFields(new Field<>("count", 1)),
+//                group("$name",Accumulators.sum("count", "$count"))
+//                ));
+//
+//
+//        for (Object document : output)
+//        {
+//            System.out.println(document);
+//        }
+
+
+
+
 
     }
 
