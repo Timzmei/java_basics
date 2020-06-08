@@ -197,15 +197,6 @@ public class Main {
     public static void showStatistics(){
         // Общее количество товаров
 
-//        AggregateIterable output = collection_shop.aggregate(Arrays.asList(
-//                unwind("$itemList"),
-//                sortByCount("$name")
-//        ));
-//
-//        for (Object document : output)
-//        {
-//            System.out.println(document);
-//        }
         System.out.println("\n\nОбщее количество товаров в каждом магазине\n");
 
         collection_shop.aggregate(Arrays.asList(unwind("$itemList"), sortByCount("$name"))).forEach((Consumer<Document>) document -> {
@@ -258,25 +249,6 @@ public class Main {
         )).forEach((Consumer<Document>) document ->
                 System.out.println("Наименование магазина: " + document.get("_id") + "\n\t " +
                         "- Количество товаров, дешевле 100 рублей: " + document.get("count")));
-
-
-
-//        AggregateIterable output = collection_shop.aggregate(Arrays.asList(
-//                lookup("ItemListDemo", "itemList", "name", "priceItem"),
-//                unwind("$priceItem"),
-//                match(new Document("priceItem.price",new Document("$lt", 100))),
-//                addFields(new Field<>("count", 1)),
-//                group("$name",Accumulators.sum("count", "$count"))
-//                ));
-//
-//
-//        for (Object document : output)
-//        {
-//            System.out.println(document);
-//        }
-
-
-
 
 
     }
