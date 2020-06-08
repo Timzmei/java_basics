@@ -25,58 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="ToDoList рабочая версия 03.04.2020">
-      <change afterPath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_57.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_41_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_bean_5_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_5_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/bookLibrary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/ToDoList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/main/DefaultController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/main/ToDoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/main/model/ToDo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/js/jquery-3.4.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_NoSQL/Mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Mongo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="09.06.2020" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587581486890</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="09.06.2020">
+      <created>1591646597237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591646597237</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +243,8 @@
     <MESSAGE value="ToDoList done 21.04.2020" />
     <MESSAGE value="ToDoList рабочая версия 22.04.2020" />
     <MESSAGE value="ToDoList рабочая версия 03.04.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="ToDoList рабочая версия 03.04.2020" />
+    <MESSAGE value="09.06.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.06.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1018" y="213" width="847" height="684" key="#Project_Structure" timestamp="1585645509072">

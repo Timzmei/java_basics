@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/pom.xml" />
         <option value="$PROJECT_DIR$/13_NoSQL/Mongo/pom.xml" />
         <option value="$PROJECT_DIR$/13_NoSQL/Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Performance/CarNumberGenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/14_Performance/VoteAnalyzer/pom.xml" />
       </list>
     </option>
   </component>
