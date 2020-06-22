@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MongoDB_Shop" />
-        <module name="CarNumberGenerator" />
-        <module name="VoteAnalyzer" />
         <module name="Redis" />
+        <module name="CarNumberGenerator" />
+        <module name="MongoDB_Shop" />
+        <module name="VoteAnalyzer" />
         <module name="BookLibrary" />
         <module name="Mongo" />
         <module name="toDoList" />
@@ -17,12 +17,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="BookLibrary" target="8" />
-      <module name="CarNumberGenerator" target="1.5" />
+      <module name="CarNumberGenerator" target="8" />
       <module name="Mongo" target="8" />
       <module name="MongoDB_Shop" target="8" />
-      <module name="Redis" target="1.5" />
+      <module name="Redis" target="8" />
       <module name="toDoList" target="8" />
-      <module name="VoteAnalyzer" target="1.5" />
+      <module name="VoteAnalyzer" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
