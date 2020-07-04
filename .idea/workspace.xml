@@ -25,11 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="09.06.2020">
-      <change afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java/NumberGenerator.java" afterDir="false" />
+    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="ДЗ 14.7 22.06.2020">
+      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/TimePeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Voter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/WorkTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/XMLHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]3/.name" beforeDir="false" />
@@ -43,7 +46,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java/Loader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,16 +105,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ThreadExperiment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js" />
@@ -119,8 +119,20 @@
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/js" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java" />
+      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/res" />
+      <recent name="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Loader">
+  <component name="RunManager" selected="Application.Loader (1)">
+    <configuration name="Loader (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loader" />
+      <module name="VoteAnalyzer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Loader" />
       <module name="CarNumberGenerator" />
@@ -163,6 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Loader (1)" />
         <item itemvalue="Application.Loader" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
@@ -230,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591647246578</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ДЗ 14.7 22.06.2020">
+      <created>1592847001451</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592847001451</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +310,8 @@
     <MESSAGE value="ToDoList рабочая версия 22.04.2020" />
     <MESSAGE value="ToDoList рабочая версия 03.04.2020" />
     <MESSAGE value="09.06.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.06.2020" />
+    <MESSAGE value="ДЗ 14.7 22.06.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 14.7 22.06.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="112" width="1185" height="684" key="#Project_Structure" timestamp="1592043679262">
@@ -301,10 +322,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="666" y="350" width="782" height="413" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1591729901571" />
-    <state x="1264" y="241" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1592762061547">
+    <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser" timestamp="1593714352911">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1264" y="241" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1592762061547" />
+    <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1593714352911" />
     <state x="1128" y="221" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585645652206">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -329,25 +350,25 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1592764503011" />
-    <state width="1870" height="235" key="GridCell.Tab.0.bottom" timestamp="1592846611713">
+    <state width="1870" height="186" key="GridCell.Tab.0.bottom" timestamp="1593896626470">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="235" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1592846611713" />
+    <state width="1870" height="186" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1593896626470" />
     <state width="1874" height="345" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512384" />
-    <state width="1870" height="235" key="GridCell.Tab.0.center" timestamp="1592846611712">
+    <state width="1870" height="186" key="GridCell.Tab.0.center" timestamp="1593896626470">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="235" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1592846611712" />
+    <state width="1870" height="186" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1593896626470" />
     <state width="1874" height="345" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
-    <state width="1870" height="235" key="GridCell.Tab.0.left" timestamp="1592846611711">
+    <state width="1870" height="186" key="GridCell.Tab.0.left" timestamp="1593896626470">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="235" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1592846611711" />
+    <state width="1870" height="186" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1593896626470" />
     <state width="1874" height="345" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512382" />
-    <state width="1870" height="235" key="GridCell.Tab.0.right" timestamp="1592846611712">
+    <state width="1870" height="186" key="GridCell.Tab.0.right" timestamp="1593896626470">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="235" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1592846611712" />
+    <state width="1870" height="186" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593896626470" />
     <state width="1874" height="345" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
     <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -385,10 +406,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="ShowDiffWithBranchDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491548692" />
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1591647366064">
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1592847023445">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1591647366064" />
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1592847023445" />
     <state x="567" y="270" width="776" height="573" key="VcsDiffUtil.ChangesDialog" timestamp="1587491110506">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -405,5 +426,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="349" y="267" width="1372" height="601" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1591646925013" />
+    <state x="793" y="305" width="323" height="504" key="refactoring.ChangeSignatureDialog" timestamp="1593888695716">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="793" y="305" width="323" height="504" key="refactoring.ChangeSignatureDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1593888695716" />
   </component>
 </project>

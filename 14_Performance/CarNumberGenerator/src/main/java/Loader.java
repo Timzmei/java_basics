@@ -16,7 +16,7 @@ public class Loader
 
 
     {
-        ExecutorService service = Executors.newFixedThreadPool(2);
+        ExecutorService service = Executors.newFixedThreadPool(4);
 
         long start = System.currentTimeMillis();
 
