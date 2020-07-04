@@ -1,16 +1,14 @@
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.TreeSet;
 
-public class WorkTime
-{
+public class WorkTime2 {
     private List<TimePeriod> periods;
 
     /**
      * Set of TimePeriod objects
      */
-    public WorkTime()
+    public WorkTime2()
     {
         periods = new ArrayList<>();
     }

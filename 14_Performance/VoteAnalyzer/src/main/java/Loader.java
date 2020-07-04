@@ -41,6 +41,20 @@ public class Loader
         usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
         System.out.println("SAXParser - " + usage);
 
+        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
+
+
+        SAXParserFactory factory2 = SAXParserFactory.newInstance();
+        SAXParser parser2 = factory2.newSAXParser();
+        XMLHandler2 handler2 = new XMLHandler2();
+        parser2.parse(new File(fileName), handler2);
+//        handler.printDuplicatedVoters();
+//        handler.printStationWorkTime();
+
+
+        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
+        System.out.println("SAXParser оптимизированный - " + usage);
+
 
         usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 
