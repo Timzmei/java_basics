@@ -7,7 +7,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
+import javax.xml.stream.XMLStreamReader;
+import javax.xml.stream.events.XMLEvent;
 import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -43,17 +47,17 @@ public class Loader
 
         usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 
+        try (StaxStreamProcessor processor = new StaxStreamProcessor(Files.newInputStream(Paths.get("14_Performance/VoteAnalyzer/res/data-18M.xml")))) {
+            XMLStreamReader reader = processor.getReader();
+            processor.startElement();
+            processor.printDuplicatedVoters();
+        }
 
-        SAXParserFactory factory2 = SAXParserFactory.newInstance();
-        SAXParser parser2 = factory2.newSAXParser();
-        XMLHandler2 handler2 = new XMLHandler2();
-        parser2.parse(new File(fileName), handler2);
-//        handler.printDuplicatedVoters();
-//        handler.printStationWorkTime();
+
 
 
         usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
-        System.out.println("SAXParser оптимизированный - " + usage);
+        System.out.println("StAXParser - " + usage);
 
 
         usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
