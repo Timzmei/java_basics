@@ -52,26 +52,13 @@ public class StaxStreamProcessor implements AutoCloseable {
         }
     }
 
-//    public boolean doUntil(String value) throws XMLStreamException {
-//        while (reader.hasNext()) {
-//            int event = reader.next();
-//            if (event == XMLEvent.START_ELEMENT && value.equals(reader.getLocalName())) {
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
-
     public void startElement() throws XMLStreamException, ParseException {
         while (reader.hasNext()) {
             int event = reader.next();
-//            if (event == XMLEvent.END_ELEMENT) {
-//                return false;
-//            }
+
             if (event == XMLEvent.START_ELEMENT &&
                     "voter".equals(reader.getLocalName())) {
                 Date birthDay = birthDayFormat.parse(reader.getAttributeValue(null, "birthDay"));
-//                String birthDayStr = new String
                 voter = new Voter(reader.getAttributeValue(null, "name"), birthDay.getTime());
             }
             else  if (event == XMLEvent.START_ELEMENT && voter != null && "visit".equals(reader.getLocalName())) {
@@ -91,12 +78,9 @@ public class StaxStreamProcessor implements AutoCloseable {
 
             }
         }
-//        return false;
     }
 
-    public String getAttribute(String name) throws XMLStreamException {
-        return reader.getAttributeValue(null, name);
-    }
+
 
     public void printDuplicatedVoters(){
         for (Voter voter : voterCounts.keySet()){
@@ -104,10 +88,6 @@ public class StaxStreamProcessor implements AutoCloseable {
             if(count > 1){
                 System.out.println(voter.toString() + " - " + count);
             }
-
-//            if(voterCounts.get(voter) > 1){
-//                System.out.println(voter.toString() + " - " + voterCounts.get(voter));
-//            }
         }
     }
 

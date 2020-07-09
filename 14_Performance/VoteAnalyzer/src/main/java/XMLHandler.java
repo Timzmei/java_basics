@@ -29,7 +29,6 @@ public class XMLHandler extends DefaultHandler {
             if(qName.equals("voter")){
 
                 Date birthDay = birthDayFormat.parse(attributes.getValue("birthDay"));
-//                String birthDayStr = new String
                 voter = new Voter(attributes.getValue("name"), birthDay.getTime());
             }
             else  if (qName.equals("visit") && voter != null) {
@@ -48,8 +47,6 @@ public class XMLHandler extends DefaultHandler {
                 workTime.addVisitTime(time.getTime());
 
             }
-
-//            System.out.println(qName + " - started");
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -61,7 +58,6 @@ public class XMLHandler extends DefaultHandler {
         if(qName.equals("voter")){
             voter = null;
         }
-//        System.out.println(qName + " - ended");
     }
 
     public void printDuplicatedVoters(){
@@ -71,9 +67,6 @@ public class XMLHandler extends DefaultHandler {
                 System.out.println(voter.toString() + " - " + count);
             }
 
-//            if(voterCounts.get(voter) > 1){
-//                System.out.println(voter.toString() + " - " + voterCounts.get(voter));
-//            }
         }
     }
 

@@ -50,7 +50,7 @@ public class Loader
         try (StaxStreamProcessor processor = new StaxStreamProcessor(Files.newInputStream(Paths.get("14_Performance/VoteAnalyzer/res/data-18M.xml")))) {
             XMLStreamReader reader = processor.getReader();
             processor.startElement();
-            processor.printDuplicatedVoters();
+//            processor.printDuplicatedVoters();
         }
 
 
