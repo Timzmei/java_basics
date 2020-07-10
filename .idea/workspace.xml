@@ -19,15 +19,27 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="ДЗ 14.12 09.07.2020">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/DBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/Loader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/TimePeriod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/Voter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/WorkTime.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/TimePeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/TimePeriod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/XMLHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +103,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -270,7 +282,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -323,10 +335,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="ДЗ 14.12 09.07.2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="582" y="112" width="1185" height="684" key="#Project_Structure" timestamp="1592043679262">
+    <state x="582" y="112" width="1185" height="684" key="#Project_Structure" timestamp="1594401493073">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="582" y="112" width="1185" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1592043679262" />
+    <state x="582" y="112" width="1185" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1594401493073" />
     <state x="666" y="350" width="782" height="413" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591729901571">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -335,14 +347,6 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1593714352911" />
-    <state x="1128" y="221" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585645652206">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1128" y="221" width="575" height="675" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585645652206" />
-    <state x="436" y="481" width="1047" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585758361298">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="436" y="481" width="1047" height="152" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585758361298" />
     <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2" timestamp="1587583924948">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -407,10 +411,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="841" y="418" width="475" height="277" key="MultipleFileMergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591647287250" />
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1592758067244">
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1594406916587">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1592758067244" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1594406916587" />
     <state x="100" y="127" width="1720" height="853" key="ShowDiffWithBranchDialog" timestamp="1587491548692">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -423,10 +427,6 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="567" y="270" width="776" height="573" key="VcsDiffUtil.ChangesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491110506" />
-    <state x="1079" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1585758011199">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="1079" y="379" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585758011199" />
     <state x="713" y="335" width="484" height="444" key="git4idea.merge.GitMergeDialog" timestamp="1591647018096">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

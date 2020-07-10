@@ -38,8 +38,7 @@ public class Loader
         SAXParser parser = factory.newSAXParser();
         XMLHandler handler = new XMLHandler();
         parser.parse(new File(fileName), handler);
-//        handler.printDuplicatedVoters();
-//        handler.printStationWorkTime();
+
 
 
         usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
@@ -65,22 +64,6 @@ public class Loader
 
         parseFile(fileName);
 
-        //Printing results
-//        System.out.println("Voting station work times: ");
-//        for(Integer votingStation : voteStationWorkTimes.keySet())
-//        {
-//            WorkTime workTime = voteStationWorkTimes.get(votingStation);
-//            System.out.println("\t" + votingStation + " - " + workTime);
-//        }
-//
-//        System.out.println("Duplicated voters: ");
-//        for(Voter voter : voterCounts.keySet())
-//        {
-//            Integer count = voterCounts.get(voter);
-//            if(count > 1) {
-//                System.out.println("\t" + voter + " - " + count);
-//            }
-//        }
 
         usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
         System.out.println("DOM parser - " + usage);

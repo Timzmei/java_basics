@@ -18,13 +18,13 @@ import java.util.HashMap;
 
 public class StaxStreamProcessor implements AutoCloseable {
 
-    private static final XMLInputFactory FACTORY = XMLInputFactory.newInstance();
+    private final XMLInputFactory FACTORY = XMLInputFactory.newInstance();
 
     private final XMLStreamReader reader;
 
     private Voter voter;
-    private SimpleDateFormat birthDayFormat = new SimpleDateFormat("yyyy.MM.dd");
-    private SimpleDateFormat visitDateFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
+    private final SimpleDateFormat birthDayFormat = new SimpleDateFormat("yyyy.MM.dd");
+    private final SimpleDateFormat visitDateFormat = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
 
     private HashMap<Voter, Integer> voterCounts;
     private HashMap<Integer, WorkTime> voteStationWorkTimes;
@@ -80,16 +80,6 @@ public class StaxStreamProcessor implements AutoCloseable {
         }
     }
 
-
-
-    public void printDuplicatedVoters(){
-        for (Voter voter : voterCounts.keySet()){
-            int count = voterCounts.get(voter);
-            if(count > 1){
-                System.out.println(voter.toString() + " - " + count);
-            }
-        }
-    }
 
 
 }

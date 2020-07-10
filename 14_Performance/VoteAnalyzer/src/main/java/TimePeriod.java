@@ -6,6 +6,7 @@ public class TimePeriod implements Comparable<TimePeriod>
 {
     private long from;
     private long to;
+    private final SimpleDateFormat dayFormat = new SimpleDateFormat("yyyy.MM.dd");
 
     /**
      * Time period within one day
@@ -16,23 +17,26 @@ public class TimePeriod implements Comparable<TimePeriod>
     {
         this.from = from;
         this.to = to;
-        SimpleDateFormat dayFormat = new SimpleDateFormat("yyyy.MM.dd");
-        if(!dayFormat.format(new Date(from)).equals(dayFormat.format(new Date(to))))
-            throw new IllegalArgumentException("Dates 'from' and 'to' must be within ONE day!");
+        CheckDate(this.from, this.to);
     }
 
     public TimePeriod(Date from, Date to)
     {
         this.from = from.getTime();
         this.to = to.getTime();
-        SimpleDateFormat dayFormat = new SimpleDateFormat("yyyy.MM.dd");
-        if(!dayFormat.format(from).equals(dayFormat.format(to)))
+        CheckDate(this.from, this.to);
+
+    }
+
+    public void CheckDate(long from, long to){
+        if(!dayFormat.format(new Date(from)).equals(dayFormat.format(new Date(to))))
             throw new IllegalArgumentException("Dates 'from' and 'to' must be within ONE day!");
     }
 
+
+
     public void appendTime(Date visitTime)
     {
-        SimpleDateFormat dayFormat = new SimpleDateFormat("yyyy.MM.dd");
         if(!dayFormat.format(new Date(from)).equals(dayFormat.format(new Date(visitTime.getTime()))))
             throw new IllegalArgumentException("Visit time must be within the same day as the current TimePeriod!");
         long visitTimeTs = visitTime.getTime();
@@ -56,7 +60,6 @@ public class TimePeriod implements Comparable<TimePeriod>
     @Override
     public int compareTo(TimePeriod period)
     {
-        SimpleDateFormat dayFormat = new SimpleDateFormat("yyyy.MM.dd");
         Date current = new Date();
         Date compared = new Date();
         try {

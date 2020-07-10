@@ -60,25 +60,6 @@ public class XMLHandler extends DefaultHandler {
         }
     }
 
-    public void printDuplicatedVoters(){
-        for (Voter voter : voterCounts.keySet()){
-            int count = voterCounts.get(voter);
-            if(count > 1){
-                System.out.println(voter.toString() + " - " + count);
-            }
-
-        }
-    }
-
-
-    public void printStationWorkTime(){
-        System.out.println("Voting station work times: ");
-        for(Integer votingStation : voteStationWorkTimes.keySet())
-        {
-            WorkTime workTime = voteStationWorkTimes.get(votingStation);
-            System.out.println("\t" + votingStation + " - " + workTime);
-        }
-    }
 
 
 }

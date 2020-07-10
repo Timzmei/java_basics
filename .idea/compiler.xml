@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Redis" />
         <module name="CarNumberGenerator" />
-        <module name="MongoDB_Shop" />
+        <module name="toDoList" />
         <module name="VoteAnalyzer" />
         <module name="BookLibrary" />
         <module name="Mongo" />
-        <module name="toDoList" />
+        <module name="MongoDB_Shop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
