@@ -6,6 +6,7 @@ import javax.xml.stream.events.XMLEvent;
 import java.io.InputStream;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.time.LocalTime;
 
 
 public class StaxStreamProcessor implements AutoCloseable {
@@ -34,6 +35,15 @@ public class StaxStreamProcessor implements AutoCloseable {
         final int batchSize = 500000;
         int count = 0;
 
+        int lineCount = 0;
+
+
+        long start = System.currentTimeMillis();
+        long end;
+        double resultTime;
+
+
+
         while (reader.hasNext()) {
             int event = reader.next();
             if (event == XMLEvent.START_ELEMENT &&
@@ -47,13 +57,27 @@ public class StaxStreamProcessor implements AutoCloseable {
                 if(++count % batchSize == 0) {
                     stmt.executeBatch();
                     DBConnection.setCommit(stmt);
+                    lineCount = lineCount + batchSize;
+                    end = System.currentTimeMillis();
+                    resultTime =  (double)(end - start) / 1000 / 60;
+                    System.out.println(LocalTime.now().toString() + ": Добавлено " + (lineCount) + " строк в базу, " + "время загрузки: " + resultTime + " minutes");
+
+                    stmt.clearBatch();
+                    start = end;
                     count = 0;
+
                 }
             }
 
         }
         stmt.executeBatch();
         DBConnection.setCommit(stmt);
+        lineCount = lineCount + batchSize;
+        end = System.currentTimeMillis();
+        resultTime =  (double)(end - start) / 1000 / 60;
+        System.out.println(LocalTime.now().toString() + ": Добавлено " + (lineCount) + " строк в базу, " + "время загрузки: " + resultTime + " minutes");
+
+        stmt.clearBatch();
         stmt.close();
     }
 

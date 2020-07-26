@@ -20,12 +20,15 @@ public class Loader
 
 
         long start = System.currentTimeMillis();
+        System.out.println("Время начала работы: " + LocalTime.now().toString());
 
 
         try (StaxStreamProcessor processor = new StaxStreamProcessor(Files.newInputStream(Paths.get(fileName)))) {
             processor.startElement();
         }
 
+
+        System.out.println("Время окончания работы: " + LocalTime.now().toString());
         System.out.println("Parsing Duration: " + ((System.currentTimeMillis() - start) / 1000) + " s");
 
         DBConnection.printVoterCounts();

@@ -24,11 +24,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="26.07.2020 ДЗ 14.20 промежуточная версия">
-      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/ThreadPoolParser.java" afterDir="false" />
+    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="26.07.2020 ДЗ 14.20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" afterDir="false" />
     </list>
@@ -290,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595736350903</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="26.07.2020 ДЗ 14.20">
+      <created>1595744864361</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595744864361</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +358,8 @@
     <MESSAGE value="ДЗ 14.12 09.07.2020" />
     <MESSAGE value="10.07.2020" />
     <MESSAGE value="26.07.2020 ДЗ 14.20 промежуточная версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.07.2020 ДЗ 14.20 промежуточная версия" />
+    <MESSAGE value="26.07.2020 ДЗ 14.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="26.07.2020 ДЗ 14.20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="112" width="1185" height="684" key="#Project_Structure" timestamp="1594401493073">
@@ -393,25 +398,25 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1594843934994" />
-    <state width="1870" height="167" key="GridCell.Tab.0.bottom" timestamp="1595743493102">
+    <state width="1870" height="167" key="GridCell.Tab.0.bottom" timestamp="1595745869395">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="167" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1595743493102" />
+    <state width="1870" height="167" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1595745869395" />
     <state width="1874" height="345" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512384" />
-    <state width="1870" height="167" key="GridCell.Tab.0.center" timestamp="1595743493101">
+    <state width="1870" height="167" key="GridCell.Tab.0.center" timestamp="1595745869395">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="167" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1595743493101" />
+    <state width="1870" height="167" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1595745869395" />
     <state width="1874" height="345" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
-    <state width="1870" height="167" key="GridCell.Tab.0.left" timestamp="1595743493101">
+    <state width="1870" height="167" key="GridCell.Tab.0.left" timestamp="1595745869394">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="167" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1595743493101" />
+    <state width="1870" height="167" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1595745869394" />
     <state width="1874" height="345" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512382" />
-    <state width="1870" height="167" key="GridCell.Tab.0.right" timestamp="1595743493101">
+    <state width="1870" height="167" key="GridCell.Tab.0.right" timestamp="1595745869395">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="167" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1595743493101" />
+    <state width="1870" height="167" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1595745869395" />
     <state width="1874" height="345" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
     <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -449,10 +454,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="ShowDiffWithBranchDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491548692" />
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594409842326">
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1595744904236">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1594409842326" />
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1595744904236" />
     <state x="567" y="270" width="776" height="573" key="VcsDiffUtil.ChangesDialog" timestamp="1587491110506">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
