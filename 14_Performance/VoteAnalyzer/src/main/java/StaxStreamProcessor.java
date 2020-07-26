@@ -62,6 +62,7 @@ public class StaxStreamProcessor implements AutoCloseable {
                     resultTime =  (double)(end - start) / 1000 / 60;
                     System.out.println(LocalTime.now().toString() + ": Добавлено " + (lineCount) + " строк в базу, " + "время загрузки: " + resultTime + " minutes");
 
+
                     stmt.clearBatch();
                     start = end;
                     count = 0;
