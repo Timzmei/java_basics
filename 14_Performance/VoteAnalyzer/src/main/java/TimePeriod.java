@@ -17,18 +17,18 @@ public class TimePeriod implements Comparable<TimePeriod>
     {
         this.from = from;
         this.to = to;
-        CheckDate(this.from, this.to);
+        checkDate(this.from, this.to);
     }
 
     public TimePeriod(Date from, Date to)
     {
         this.from = from.getTime();
         this.to = to.getTime();
-        CheckDate(this.from, this.to);
+        checkDate(this.from, this.to);
 
     }
 
-    public void CheckDate(long from, long to){
+    public void checkDate(long from, long to){
         if(!dayFormat.format(new Date(from)).equals(dayFormat.format(new Date(to))))
             throw new IllegalArgumentException("Dates 'from' and 'to' must be within ONE day!");
     }

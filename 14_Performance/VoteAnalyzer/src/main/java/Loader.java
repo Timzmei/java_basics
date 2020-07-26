@@ -31,42 +31,45 @@ public class Loader
         String fileName = "14_Performance/VoteAnalyzer/res/data-18M.xml";
 
 
-        long usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
+        long start = System.currentTimeMillis();
 
-
-        SAXParserFactory factory = SAXParserFactory.newInstance();
-        SAXParser parser = factory.newSAXParser();
-        XMLHandler handler = new XMLHandler();
-        parser.parse(new File(fileName), handler);
-
-
-
-        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
-        System.out.println("SAXParser - " + usage);
-
-        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
-
-        try (StaxStreamProcessor processor = new StaxStreamProcessor(Files.newInputStream(Paths.get("14_Performance/VoteAnalyzer/res/data-18M.xml")))) {
+//
+//
+//        SAXParserFactory factory = SAXParserFactory.newInstance();
+//        SAXParser parser = factory.newSAXParser();
+//        XMLHandler handler = new XMLHandler();
+//        parser.parse(new File(fileName), handler);
+//
+//
+//
+//        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
+//        System.out.println("SAXParser - " + usage);
+//
+//        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
+//
+        try (StaxStreamProcessor processor = new StaxStreamProcessor(Files.newInputStream(Paths.get("14_Performance/VoteAnalyzer/res/data-1572M.xml")))) {
             XMLStreamReader reader = processor.getReader();
             processor.startElement();
 //            processor.printDuplicatedVoters();
         }
+//
+//
+//
+//
+//        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
+//        System.out.println("StAXParser - " + usage);
+//
+//
+//        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
+
+
+//        parseFile(fileName);
+        System.out.println("Parsing Duration: " + ((System.currentTimeMillis() - start))/1000 + " s");
+
+        DBConnection.printVoterCounts();
 
 
 
-
-        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
-        System.out.println("StAXParser - " + usage);
-
-
-        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
-
-
-        parseFile(fileName);
-
-
-        usage = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory() - usage;
-        System.out.println("DOM parser - " + usage);
     }
 
     private static void parseFile(String fileName) throws Exception
@@ -76,7 +79,7 @@ public class Loader
         Document doc = db.parse(new File(fileName));
 
         findEqualVoters(doc);
-        fixWorkTimes(doc);
+//        fixWorkTimes(doc);
     }
 
     private static void findEqualVoters(Document doc) throws Exception
@@ -89,12 +92,16 @@ public class Loader
             NamedNodeMap attributes = node.getAttributes();
 
             String name = attributes.getNamedItem("name").getNodeValue();
-            Date birthDay = birthDayFormat.parse(attributes.getNamedItem("birthDay").getNodeValue());
+            String birthDay = attributes.getNamedItem("birthDay").getNodeValue();
+//            Date birthDay = birthDayFormat.parse(attributes.getNamedItem("birthDay").getNodeValue());
 
-            Voter voter = new Voter(name, birthDay.getTime());
-            Integer count = voterCounts.get(voter);
-            voterCounts.put(voter, count == null ? 1 : count + 1);
+            DBConnection.countVoter(name, birthDay);
+//            System.out.println(i);
+//            Voter voter = new Voter(name, birthDay.getTime());
+//            Integer count = voterCounts.get(voter);
+//            voterCounts.put(voter, count == null ? 1 : count + 1);
         }
+        DBConnection.executeMultiInsert();
     }
 
     private static void fixWorkTimes(Document doc) throws Exception

@@ -19,28 +19,23 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="ДЗ 14.12 09.07.2020">
+    <list default="true" id="4ba41dba-1ecd-4b9d-b69b-50ff655c2838" name="Default Changelist" comment="10.07.2020">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/DBConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/Loader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/TimePeriod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/Voter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/WorkTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/TimePeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/TimePeriod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/XMLHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,29 +89,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/js" />
       <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css" />
-      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources/static/css/js" />
-      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src" />
+      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/resources" />
       <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java" />
       <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/res" />
       <recent name="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java" />
@@ -133,6 +131,14 @@
     <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Loader" />
       <module name="CarNumberGenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loader" />
+      <module name="VoteAnalyzer" />
+      <option name="VM_PARAMETERS" value="-Xmx2000M" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,13 +176,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Loader (1)" />
+      <item itemvalue="Application.Loader" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Loader (1)" />
         <item itemvalue="Application.Loader" />
+        <item itemvalue="Application.Loader" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594317920152</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="10.07.2020">
+      <created>1594409769648</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1594409769649</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,19 +296,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -300,7 +308,17 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="origin/second" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -332,21 +350,26 @@
     <MESSAGE value="ДЗ 14.12 05.07.2020" />
     <MESSAGE value="ДЗ 14.12 05.07.2020 v.2" />
     <MESSAGE value="ДЗ 14.12 09.07.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ 14.12 09.07.2020" />
+    <MESSAGE value="10.07.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.07.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="112" width="1185" height="684" key="#Project_Structure" timestamp="1594401493073">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="582" y="112" width="1185" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1594401493073" />
-    <state x="666" y="350" width="782" height="413" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591729901571">
+    <state x="836" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594755541624">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="666" y="350" width="782" height="413" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1591729901571" />
-    <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser" timestamp="1593714352911">
+    <state x="836" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1594755541624" />
+    <state x="666" y="350" width="782" height="413" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595440220237">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1593714352911" />
+    <state x="666" y="350" width="782" height="413" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1595440220237" />
+    <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser" timestamp="1594842054242">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1594842054242" />
     <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2" timestamp="1587583924948">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -359,29 +382,29 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591645271901" />
-    <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl" timestamp="1592764503011">
+    <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl" timestamp="1594843934994">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1592764503011" />
-    <state width="1870" height="186" key="GridCell.Tab.0.bottom" timestamp="1594317830830">
+    <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1594843934994" />
+    <state width="1870" height="167" key="GridCell.Tab.0.bottom" timestamp="1595718499018">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="186" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1594317830830" />
+    <state width="1870" height="167" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1595718499018" />
     <state width="1874" height="345" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512384" />
-    <state width="1870" height="186" key="GridCell.Tab.0.center" timestamp="1594317830829">
+    <state width="1870" height="167" key="GridCell.Tab.0.center" timestamp="1595718499017">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="186" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1594317830829" />
+    <state width="1870" height="167" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1595718499017" />
     <state width="1874" height="345" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
-    <state width="1870" height="186" key="GridCell.Tab.0.left" timestamp="1594317830829">
+    <state width="1870" height="167" key="GridCell.Tab.0.left" timestamp="1595718499017">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="186" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1594317830829" />
+    <state width="1870" height="167" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1595718499017" />
     <state width="1874" height="345" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512382" />
-    <state width="1870" height="186" key="GridCell.Tab.0.right" timestamp="1594317830830">
+    <state width="1870" height="167" key="GridCell.Tab.0.right" timestamp="1595718499018">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1870" height="186" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1594317830830" />
+    <state width="1870" height="167" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1595718499018" />
     <state width="1874" height="345" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
     <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -411,18 +434,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="841" y="418" width="475" height="277" key="MultipleFileMergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1591647287250" />
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1594406916587">
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1595697130266">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1594406916587" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1595697130266" />
     <state x="100" y="127" width="1720" height="853" key="ShowDiffWithBranchDialog" timestamp="1587491548692">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="ShowDiffWithBranchDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1587491548692" />
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594317934137">
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594409842326">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1594317934137" />
+    <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1594409842326" />
     <state x="567" y="270" width="776" height="573" key="VcsDiffUtil.ChangesDialog" timestamp="1587491110506">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

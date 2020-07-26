@@ -8,19 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Redis" />
         <module name="CarNumberGenerator" />
-        <module name="toDoList" />
+        <module name="MongoDB_Shop" />
         <module name="VoteAnalyzer" />
         <module name="BookLibrary" />
         <module name="Mongo" />
-        <module name="MongoDB_Shop" />
+        <module name="toDoList" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="BookLibrary" target="8" />
-      <module name="CarNumberGenerator" target="8" />
+      <module name="CarNumberGenerator" target="1.5" />
       <module name="Mongo" target="8" />
       <module name="MongoDB_Shop" target="8" />
-      <module name="Redis" target="8" />
+      <module name="Redis" target="1.5" />
       <module name="toDoList" target="8" />
       <module name="VoteAnalyzer" target="8" />
     </bytecodeTargetLevel>
@@ -28,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookLibrary" options="-parameters" />
+      <module name="VoteAnalyzer" options="" />
       <module name="toDoList" options="-parameters" />
     </option>
   </component>
