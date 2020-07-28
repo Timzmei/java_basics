@@ -1,4 +1,5 @@
 
+import javax.persistence.Cacheable;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
@@ -28,10 +29,12 @@ public class StaxStreamProcessor implements AutoCloseable {
 
     public void startElement() throws XMLStreamException, SQLException {
 
-        PreparedStatement stmt = DBConnection.getConnection().prepareStatement("INSERT INTO voter_count(name, birthDate, `count`)" +
-                "VALUES(?, ?, 1)" +
-                "ON DUPLICATE KEY UPDATE `count`=`count` + 1");
-        DBConnection.setCommitFalse();
+//        PreparedStatement stmt = DBConnection.getConnection().prepareStatement("INSERT INTO voter_count(name, birthDate, `count`)" +
+//                "VALUES(?, ?, 1)" +
+//                "ON DUPLICATE KEY UPDATE `count`=`count` + 1");
+//        DBConnection.setCommitFalse();
+
+        BatchUploader batchUploader = new BatchUploader();
         final int batchSize = 500000;
         int count = 0;
 
@@ -48,38 +51,17 @@ public class StaxStreamProcessor implements AutoCloseable {
             int event = reader.next();
             if (event == XMLEvent.START_ELEMENT &&
                     "voter".equals(reader.getLocalName())) {
+//                System.out.println(++count);
+                String name = reader.getAttributeValue(null, "name");
+                String birthDay = reader.getAttributeValue(null, "birthDay");
 
-                stmt.setString(1, reader.getAttributeValue(null, "name"));
-                stmt.setString(2, reader.getAttributeValue(null, "birthDay"));
-
-                stmt.addBatch();
-
-                if(++count % batchSize == 0) {
-                    stmt.executeBatch();
-                    DBConnection.setCommit(stmt);
-                    lineCount = lineCount + batchSize;
-                    end = System.currentTimeMillis();
-                    resultTime =  (double)(end - start) / 1000 / 60;
-                    System.out.println(LocalTime.now().toString() + ": Добавлено " + (lineCount) + " строк в базу, " + "время загрузки: " + resultTime + " minutes");
-
-
-                    stmt.clearBatch();
-                    start = end;
-                    count = 0;
-
-                }
+                batchUploader.addVoter(name, birthDay);
             }
 
         }
-        stmt.executeBatch();
-        DBConnection.setCommit(stmt);
-        lineCount = lineCount + batchSize;
-        end = System.currentTimeMillis();
-        resultTime =  (double)(end - start) / 1000 / 60;
-        System.out.println(LocalTime.now().toString() + ": Добавлено " + (lineCount) + " строк в базу, " + "время загрузки: " + resultTime + " minutes");
-
-        stmt.clearBatch();
-        stmt.close();
+        batchUploader.uploadBatch();
+        batchUploader.closeLoading();
     }
+
 
 }

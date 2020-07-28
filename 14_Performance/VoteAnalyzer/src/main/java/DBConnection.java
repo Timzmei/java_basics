@@ -34,7 +34,7 @@ public class DBConnection
     }
 
 
-    public static void setCommitFalse() throws SQLException {
+    public static void disableAutoCommit() throws SQLException {
         connection.setAutoCommit(false);
     }
 

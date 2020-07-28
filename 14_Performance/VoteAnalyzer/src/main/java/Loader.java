@@ -16,7 +16,7 @@ public class Loader
     {
 
 
-        String fileName = "14_Performance/VoteAnalyzer/res/data-1572M.xml";
+        String fileName = "res/data-1572M.xml";
 
 
         long start = System.currentTimeMillis();
@@ -30,9 +30,16 @@ public class Loader
 
 
         System.out.println("Время окончания работы: " + LocalTime.now().toString());
-        System.out.println("Parsing Duration: " + ((System.currentTimeMillis() - start) / 1000) + " s");
+        long end = System.currentTimeMillis();
+
+        System.out.println("Parsing Duration: " + getMinutes(start, end) + " minutes");
 
         DBConnection.printVoterCounts();
 
     }
+
+    public static double getMinutes(long start, long end){
+        return (double) (end - start) / 1000 / 60;
+    }
+
 }

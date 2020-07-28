@@ -9,6 +9,7 @@
         <module name="Redis" />
         <module name="CarNumberGenerator" />
         <module name="MongoDB_Shop" />
+        <module name="HDFSExample" />
         <module name="VoteAnalyzer" />
         <module name="BookLibrary" />
         <module name="Mongo" />
@@ -17,7 +18,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="BookLibrary" target="8" />
-      <module name="CarNumberGenerator" target="1.5" />
+      <module name="CarNumberGenerator" target="6" />
+      <module name="HDFSExample" target="7" />
       <module name="Mongo" target="8" />
       <module name="MongoDB_Shop" target="8" />
       <module name="Redis" target="1.5" />
