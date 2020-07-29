@@ -19,13 +19,22 @@ public class DBConnection
                     "jdbc:mysql://localhost:3306/" + dbName +
                     "?user=" + dbUser + "&password=" + dbPass);
                 connection.createStatement().execute("DROP TABLE IF EXISTS voter_count");
+
                 connection.createStatement().execute("CREATE TABLE voter_count(" +
                         "id INT NOT NULL AUTO_INCREMENT, " +
                         "name TINYTEXT NOT NULL, " +
                         "birthDate DATE NOT NULL, " +
                         "`count` INT NOT NULL, " +
-                        "PRIMARY KEY(id), " +
-                        "UNIQUE KEY name_date(name(50), birthDate))");
+                        "PRIMARY KEY(id))");
+
+
+//                connection.createStatement().execute("CREATE TABLE voter_count(" +
+//                        "id INT NOT NULL AUTO_INCREMENT, " +
+//                        "name TINYTEXT NOT NULL, " +
+//                        "birthDate DATE NOT NULL, " +
+//                        "`count` INT NOT NULL, " +
+//                        "PRIMARY KEY(id), " +
+//                        "UNIQUE KEY name_date(name(50), birthDate))");
             } catch (SQLException e) {
                 e.printStackTrace();
             }

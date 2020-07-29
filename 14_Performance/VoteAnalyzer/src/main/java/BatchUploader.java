@@ -9,6 +9,11 @@ public class BatchUploader {
     private final String statementInsertVoters = "INSERT INTO voter_count(name, birthDate, `count`)" +
             "VALUES(?, ?, 1)" +
             "ON DUPLICATE KEY UPDATE `count`=`count` + 1";
+
+//    private final String statementInsertVoters = "INSERT INTO voter_count(name, birthDate, `count`)" +
+//            "VALUES(?, ?, 1)";
+
+
     private final int maxBatchSize = 500000;
 
 
@@ -34,15 +39,15 @@ public class BatchUploader {
 
 //        System.out.println(stmt.getFetchSize());
         if(getBatchSize() > maxBatchSize) {
-            uploadBatch();
+            uploadBatch(getBatchSize());
             batchSize = 0;
         }
 
     }
 
-    public void uploadBatch() throws SQLException {
+    public void uploadBatch(int batchSize) throws SQLException {
         long start = System.currentTimeMillis();
-        System.out.print(LocalTime.now().toString() + " - время загрузки партии из 500000 строк: ");
+        System.out.print(LocalTime.now().toString() + " - время загрузки партии из " + batchSize + " строк: ");
         stmt.executeBatch();
         DBConnection.setCommit(stmt);
         long end = System.currentTimeMillis();

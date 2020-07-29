@@ -25,19 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="26.07.2020 ДЗ 14.20">
-      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/BatchUploader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/BatchUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/BatchUploader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/StaxStreamProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_BigData/HDFSExample/HDFSExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/15_BigData/HDFSExample/HDFSExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_BigData/HDFSExample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/15_BigData/HDFSExample/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +180,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Loader (1)" />
       <item itemvalue="Application.VoteAnalyzer" />
       <item itemvalue="Application.Loader" />
       <item itemvalue="Application.Main" />
@@ -446,25 +438,25 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1594843934994" />
-    <state width="927" height="362" key="GridCell.Tab.0.bottom" timestamp="1595928358359">
+    <state width="1870" height="559" key="GridCell.Tab.0.bottom" timestamp="1596011814065">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="927" height="362" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1595928358359" />
+    <state width="1870" height="559" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596011814065" />
     <state width="1874" height="345" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512384" />
-    <state width="927" height="362" key="GridCell.Tab.0.center" timestamp="1595928358359">
+    <state width="1870" height="559" key="GridCell.Tab.0.center" timestamp="1596011814064">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="927" height="362" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1595928358359" />
+    <state width="1870" height="559" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596011814064" />
     <state width="1874" height="345" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
-    <state width="927" height="362" key="GridCell.Tab.0.left" timestamp="1595928358358">
+    <state width="1870" height="559" key="GridCell.Tab.0.left" timestamp="1596011814063">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="927" height="362" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1595928358358" />
+    <state width="1870" height="559" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596011814063" />
     <state width="1874" height="345" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512382" />
-    <state width="927" height="362" key="GridCell.Tab.0.right" timestamp="1595928358359">
+    <state width="1870" height="559" key="GridCell.Tab.0.right" timestamp="1596011814064">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="927" height="362" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1595928358359" />
+    <state width="1870" height="559" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596011814064" />
     <state width="1874" height="345" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
     <state width="1874" height="240" key="GridCell.Tab.1.bottom" timestamp="1587492850276">
       <screen x="0" y="27" width="1920" height="1053" />

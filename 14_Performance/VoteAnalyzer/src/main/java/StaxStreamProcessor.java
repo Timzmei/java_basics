@@ -29,23 +29,7 @@ public class StaxStreamProcessor implements AutoCloseable {
 
     public void startElement() throws XMLStreamException, SQLException {
 
-//        PreparedStatement stmt = DBConnection.getConnection().prepareStatement("INSERT INTO voter_count(name, birthDate, `count`)" +
-//                "VALUES(?, ?, 1)" +
-//                "ON DUPLICATE KEY UPDATE `count`=`count` + 1");
-//        DBConnection.setCommitFalse();
-
         BatchUploader batchUploader = new BatchUploader();
-        final int batchSize = 500000;
-        int count = 0;
-
-        int lineCount = 0;
-
-
-        long start = System.currentTimeMillis();
-        long end;
-        double resultTime;
-
-
 
         while (reader.hasNext()) {
             int event = reader.next();
@@ -59,7 +43,7 @@ public class StaxStreamProcessor implements AutoCloseable {
             }
 
         }
-        batchUploader.uploadBatch();
+        batchUploader.uploadBatch(batchUploader.getBatchSize());
         batchUploader.closeLoading();
     }
 
