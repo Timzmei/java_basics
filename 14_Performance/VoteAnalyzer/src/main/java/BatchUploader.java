@@ -6,12 +6,13 @@ import java.time.LocalTime;
 public class BatchUploader {
 
     private PreparedStatement stmt;
-    private final String statementInsertVoters = "INSERT INTO voter_count(name, birthDate, `count`)" +
-            "VALUES(?, ?, 1)" +
-            "ON DUPLICATE KEY UPDATE `count`=`count` + 1";
-
 //    private final String statementInsertVoters = "INSERT INTO voter_count(name, birthDate, `count`)" +
-//            "VALUES(?, ?, 1)";
+//            "VALUES(?, ?, 1)" +
+//            "ON DUPLICATE KEY UPDATE `count`=`count` + 1";
+
+    private final String statementInsertVoters = "INSERT INTO voter(name, birthDate)" +
+            "VALUES(?, ?)";
+
 
 
     private final int maxBatchSize = 500000;
@@ -52,6 +53,7 @@ public class BatchUploader {
         DBConnection.setCommit(stmt);
         long end = System.currentTimeMillis();
         System.out.println(getMinutes(start, end) + " minutes");
+        stmt.clearBatch();
     }
 
     public void closeLoading() throws SQLException {

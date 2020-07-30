@@ -18,6 +18,15 @@ public class DBConnection
                 connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/" + dbName +
                     "?user=" + dbUser + "&password=" + dbPass);
+                connection.createStatement().execute("DROP TABLE IF EXISTS voter");
+
+                connection.createStatement().execute("CREATE TABLE voter(" +
+                        "id INT NOT NULL AUTO_INCREMENT, " +
+                        "name TINYTEXT NOT NULL, " +
+                        "birthDate DATE NOT NULL, " +
+//                        "`count` INT NOT NULL, " +
+                        "PRIMARY KEY(id))");
+
                 connection.createStatement().execute("DROP TABLE IF EXISTS voter_count");
 
                 connection.createStatement().execute("CREATE TABLE voter_count(" +

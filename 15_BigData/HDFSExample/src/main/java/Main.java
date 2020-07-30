@@ -18,9 +18,9 @@ public class Main
         System.setProperty("HADOOP_USER_NAME", "root");
 
         FileSystem hdfs = FileSystem.get(
-            new URI("hdfs://HOST_NAME:8020"), configuration
+            new URI("hdfs://6535fb5dca4d:8020"), configuration
         );
-        Path file = new Path("hdfs://HOST_NAME:8020/test/file.txt");
+        Path file = new Path("hdfs://6535fb5dca4d:8020/test/file.txt");
 
         if (hdfs.exists(file)) {
             hdfs.delete(file, true);

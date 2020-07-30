@@ -29,12 +29,20 @@ public class Loader
 
 
 
+
+
+
+
+        InsertDuplicatesVoters insertDuplicatesVoters = new InsertDuplicatesVoters();
+        insertDuplicatesVoters.addDuplicates();
         System.out.println("Время окончания работы: " + LocalTime.now().toString());
         long end = System.currentTimeMillis();
-
         System.out.println("Parsing Duration: " + getMinutes(start, end) + " minutes");
 
+
         DBConnection.printVoterCounts();
+
+
 
     }
 
