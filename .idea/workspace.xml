@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,11 +28,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="29.07.2020 ДЗ 14.20">
-      <change afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/InsertDuplicatesVoters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/BatchUploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/BatchUploader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_BigData/HDFSExample/HDFSExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/15_BigData/HDFSExample/HDFSExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_BigData/HDFSExample/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/15_BigData/HDFSExample/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15_BigData/HDFSExample/src/main/java/FileAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/15_BigData/HDFSExample/src/main/java/FileAccess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15_BigData/HDFSExample/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/15_BigData/HDFSExample/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -79,6 +85,13 @@
     <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Zsw1snZzrOaV0O27PHmuRscdOh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -92,11 +105,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.40114942" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -117,7 +130,7 @@
       <recent name="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VoteAnalyzer">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Loader" />
       <module name="CarNumberGenerator" />
@@ -178,14 +191,15 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VoteAnalyzer" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.VoteAnalyzer" />
         <item itemvalue="Application.Loader" />
         <item itemvalue="Application.Loader" />
         <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -395,10 +409,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="29.07.2020 ДЗ 14.20" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="582" y="112" width="1185" height="684" key="#Project_Structure" timestamp="1594401493073">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="714" y="267" width="483" height="591" key="#HTTP_Proxy" timestamp="1596992943611">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="714" y="267" width="483" height="591" key="#HTTP_Proxy/0.28.1920.1052@0.28.1920.1052" timestamp="1596992943611" />
+    <state x="582" y="113" width="1185" height="684" key="#Project_Structure" timestamp="1597001850556">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="582" y="112" width="1185" height="684" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1594401493073" />
+    <state x="582" y="113" key="#Project_Structure/0.28.1920.1052@0.28.1920.1052" timestamp="1597001850556" />
     <state x="693" y="311" width="524" height="491" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595741596715">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -419,38 +438,35 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="995" y="186" width="602" height="696" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1596125551536" />
-    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2" timestamp="1587583924948">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="509" y="36" width="949" height="1044" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1587583924948" />
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog" timestamp="1596139674194">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596139674194" />
-    <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl" timestamp="1594843934994">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="937" y="311" width="424" height="482" key="FileChooserDialogImpl" timestamp="1596992864916">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="937" y="310" width="422" height="498" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1594843934994" />
-    <state width="1870" height="428" key="GridCell.Tab.0.bottom" timestamp="1596147009844">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="937" y="311" width="424" height="482" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1596992864916" />
+    <state width="1870" height="275" key="GridCell.Tab.0.bottom" timestamp="1597004588064">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state width="1870" height="428" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596147009844" />
-    <state width="1874" height="345" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512384" />
-    <state width="1870" height="428" key="GridCell.Tab.0.center" timestamp="1596147009843">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1870" height="275" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1597004588064" />
+    <state width="1870" height="275" key="GridCell.Tab.0.center" timestamp="1597004588064">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state width="1870" height="428" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596147009843" />
-    <state width="1874" height="345" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
-    <state width="1870" height="428" key="GridCell.Tab.0.left" timestamp="1596147009843">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1870" height="275" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1597004588064" />
+    <state width="1870" height="275" key="GridCell.Tab.0.left" timestamp="1597004588063">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state width="1870" height="428" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596147009843" />
-    <state width="1874" height="345" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512382" />
-    <state width="1870" height="428" key="GridCell.Tab.0.right" timestamp="1596147009844">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state width="1870" height="275" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1597004588063" />
+    <state width="1870" height="275" key="GridCell.Tab.0.right" timestamp="1597004588064">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state width="1870" height="428" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596147009844" />
-    <state width="1874" height="345" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1587925512383" />
+    <state width="1870" height="275" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1597004588064" />
     <state x="1052" y="295" width="824" height="515" key="IDE.errors.dialog" timestamp="1591734320939">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -463,10 +479,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="841" y="418" width="475" height="277" key="MultipleFileMergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1595750566002" />
-    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1595912993406">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="333" y="154" width="1213" height="843" key="SettingsEditor" timestamp="1597003908700">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1595912993406" />
+    <state x="333" y="154" width="1213" height="843" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1597003908700" />
     <state x="437" y="460" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1596012771117">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

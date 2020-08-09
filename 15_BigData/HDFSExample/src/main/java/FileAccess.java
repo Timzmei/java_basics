@@ -1,11 +1,14 @@
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataOutputStream;
+import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 
 import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.nio.charset.StandardCharsets;
+import java.util.LinkedList;
 import java.util.List;
 
 public class FileAccess
@@ -25,7 +28,7 @@ public class FileAccess
         System.setProperty("HADOOP_USER_NAME", "root");
 
         hdfs = FileSystem.get(
-                new URI("hdfs://6535fb5dca4d:8020"), configuration
+                new URI(rootPath), configuration
         );
 
     }
@@ -36,7 +39,19 @@ public class FileAccess
      * @param path
      */
     public void create(String path) throws IOException {
-        hdfs.create(new Path(path));
+        Path file = new Path(path);
+        if(hdfs.exists(file)){
+            delete(path);
+        }
+
+        if(!path.matches("[^\\.]+")){
+            hdfs.create(new Path(path));
+
+        }
+        else {
+            hdfs.mkdirs(new Path(path));
+        }
+//        hdfs.close();
     }
 
     /**
@@ -46,13 +61,17 @@ public class FileAccess
      * @param content
      */
     public void append(String path, String content) throws IOException {
-        FSDataOutputStream fsDataOutputStream = hdfs.append(new Path(path));
-        PrintWriter printWriter = new PrintWriter(fsDataOutputStream);
-        printWriter.append(content);
-        printWriter.flush();
-        fsDataOutputStream.hflush();
-        printWriter.close();
-        fsDataOutputStream.close();
+        String oldContent = read(path);
+        delete(path);
+
+        OutputStream os = hdfs.create(new Path(path));
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(os, "UTF-8"));
+        bufferedWriter.write(oldContent);
+        bufferedWriter.newLine();
+        bufferedWriter.write(content);
+        bufferedWriter.flush();
+        bufferedWriter.close();
+//        hdfs.close();
     }
 
     /**
@@ -85,7 +104,14 @@ public class FileAccess
      * @param path
      */
     public void delete(String path) throws IOException {
-//        hdfs.delete(new Path(path), )
+        hdfs.delete(new Path(path), true);
+//        if(!path.matches("[^\\.]+")){
+//            hdfs.delete(new Path(path), true);
+//
+//        }
+//        else {
+//            hdfs.delete(new Path(path), true);
+//        }
     }
 
     /**
@@ -94,9 +120,11 @@ public class FileAccess
      * @param path
      * @return
      */
-    public boolean isDirectory(String path)
-    {
-        return false;
+    public boolean isDirectory(String path) throws IOException {
+        Path hdfsPath = new Path(path);
+
+//        hdfs.isDirectory(hdfsPath);
+        return hdfs.isDirectory(hdfsPath);
     }
 
     /**
@@ -105,8 +133,30 @@ public class FileAccess
      * @param path
      * @return
      */
-    public List<String> list(String path)
-    {
-        return null;
+    public List<String> list(String path) throws IOException {
+
+        List<String> list = new LinkedList<String>();
+
+        FileStatus statuses[] = hdfs.listStatus(new Path(path));
+
+        for (FileStatus status : statuses) {
+
+            list.add(status.getPath().getName());
+//            System.out.println("*************************************");
+//
+//            System.out.println("Access Time : " + status.getAccessTime());
+//            System.out.println("Block size : " + status.getBlockSize());
+//            System.out.println("Group : " + status.getGroup());
+//            System.out.println("Length : " + status.getLen());
+//            System.out.println("Modified Time : "
+//                    + status.getModificationTime());
+//            System.out.println("Owner : " + status.getOwner());
+//            System.out.println("Path : " + status.getPath());
+//            System.out.println("Permission : " + status.getPermission());
+//            System.out.println("Replication factor : "
+//                    + status.getReplication());
+//            System.out.println("Is Directory : " + status.isDirectory());
+        }
+        return list;
     }
 }
