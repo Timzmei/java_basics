@@ -40,31 +40,31 @@ public class Main
         }
 
 
-/*        Configuration configuration = new Configuration();
-        configuration.set("dfs.client.use.datanode.hostname", "true");
-        System.setProperty("HADOOP_USER_NAME", "root");
-
-        FileSystem hdfs = FileSystem.get(
-            new URI("hdfs://8547a1f40dc9:8020"), configuration
-        );
-        Path file = new Path("hdfs://8547a1f40dc9:8020/test/file.txt");
-
-        if (hdfs.exists(file)) {
-            hdfs.delete(file, true);
-        }
-
-        OutputStream os = hdfs.create(file);
-        BufferedWriter br = new BufferedWriter(
-            new OutputStreamWriter(os, "UTF-8")
-        );
-
-        for(int i = 0; i < 10_000_000; i++) {
-            br.write(getRandomWord() + " ");
-        }
-
-        br.flush();
-        br.close();
-        hdfs.close();*/
+//        Configuration configuration = new Configuration();
+//        configuration.set("dfs.client.use.datanode.hostname", "true");
+//        System.setProperty("HADOOP_USER_NAME", "root");
+//
+//        FileSystem hdfs = FileSystem.get(
+//            new URI("hdfs://1bea5e5283a2:8020"), configuration
+//        );
+//        Path file = new Path("hdfs://1bea5e5283a2:8020/test/file.txt");
+//
+//        if (hdfs.exists(file)) {
+//            hdfs.delete(file, true);
+//        }
+//
+//        OutputStream os = hdfs.create(file);
+//        BufferedWriter br = new BufferedWriter(
+//            new OutputStreamWriter(os, "UTF-8")
+//        );
+//
+//        for(int i = 0; i < 100_000; i++) {
+//            br.write(getRandomWord() + " ");
+//        }
+//
+//        br.flush();
+//        br.close();
+//        hdfs.close();
     }
 
     private static String getRandomWord()
