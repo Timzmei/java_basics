@@ -23,10 +23,10 @@
       <module name="HDFSExample" target="7" />
       <module name="Mongo" target="8" />
       <module name="MongoDB_Shop" target="8" />
-      <module name="Redis" target="1.5" />
+      <module name="Redis" target="9" />
       <module name="SparkExample" target="8" />
       <module name="toDoList" target="8" />
-      <module name="VoteAnalyzer" target="1.5" />
+      <module name="VoteAnalyzer" target="9" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
