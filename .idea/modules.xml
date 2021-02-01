@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/18_Algorithms/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/18_Algorithms/Algorithms/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" filepath="$PROJECT_DIR$/12_SpringBootWebDevelopment/BookLibrary/BookLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" filepath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/16_Final/DesktopApp/DesktopApp.iml" filepath="$PROJECT_DIR$/16_Final/DesktopApp/DesktopApp.iml" />

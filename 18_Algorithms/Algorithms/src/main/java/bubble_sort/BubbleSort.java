@@ -2,7 +2,7 @@ package bubble_sort;
 
 public class BubbleSort
 {
-    public static void sort(int[] array)
+    public static int[] sort(int[] array)
     {
         int n = array.length;
         int temp;
@@ -18,5 +18,8 @@ public class BubbleSort
                 }
             }
         }
+
+        return array;
+
     }
 }
