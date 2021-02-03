@@ -25,5 +25,7 @@ public class RabinKarpExtended
     private void createIndex()
     {
         //TODO: implement text indexing
+
+
     }
 }

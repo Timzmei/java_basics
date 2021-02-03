@@ -28,26 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="11.08.2020 ДЗ 15.10">
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/Task 2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/array_max_value/ArrayMaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/binary_search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/test/java/TestBubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="01.02.2021 ДЗ 18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/array_max_value/ArrayMaxValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/binary_search/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/bubble_sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/iteration_vs_recursion/IterationVsRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/iteration_vs_recursion/IterationVsRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/merge_sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/merge_sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/quick_sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/quick_sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/rabin_karp/RabinKarpExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597132574846</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="01.02.2021 ДЗ 18">
+      <created>1612203816516</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612203816516</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,6 +433,7 @@
     <MESSAGE value="29.07.2020 ДЗ 14.20" />
     <MESSAGE value="10.08.2020 ДЗ 15.4" />
     <MESSAGE value="11.08.2020 ДЗ 15.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.08.2020 ДЗ 15.10" />
+    <MESSAGE value="01.02.2021 ДЗ 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="01.02.2021 ДЗ 18" />
   </component>
 </project>
