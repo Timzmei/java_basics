@@ -16,10 +16,22 @@ public class RabinKarpExtended
         number2position = new TreeMap<>();
     }
 
-    public void search(String query)
+    public Integer search(String query)
     {
+        if (query == null){
+            return null;
+        }
         createIndex(query.length());
-        System.out.println("Размер алфавита: " + checkAlphabet(query));
+        System.out.println("Размер алфавита: " + checkAlphabet().size());
+
+        for (char ch:
+             query.toCharArray()) {
+            if(!(checkAlphabet().contains(ch))){
+                System.out.println("В искомой подстроке есть символ не из алфавита");
+            }
+
+        }
+
         int queryHash = 0;
         for (int j = 0; j < query.length(); j++){
             queryHash = (128 * queryHash + query.charAt(j)) % 358;
@@ -31,11 +43,12 @@ public class RabinKarpExtended
             if(queryHash == number2position.get(i)){
 
                 System.out.println("Строка найдена. Позиция строки в тексте: " + (i + 1));
-                return;
+                return i + 1;
             }
 
         }
         System.out.println("Строка не найдена");
+        return null;
     }
 
     private void createIndex(int queryLength)
@@ -62,17 +75,17 @@ public class RabinKarpExtended
 
     }
 
-    private int checkAlphabet(String query){
+    private TreeSet checkAlphabet(){
 
-        String allText = this.text + query;
+//        String allText = this.text + query;
 
         TreeSet<Integer> alphabet = new TreeSet<>();
         for (char ch:
-             allText.toCharArray()) {
+             this.text.toCharArray()) {
             alphabet.add((int) ch);
 
         }
 
-        return alphabet.size();
+        return alphabet;
     }
 }

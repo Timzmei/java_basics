@@ -29,9 +29,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="01.02.2021 ДЗ 18">
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/array_max_value/ArrayMaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/abstract_class/AbstractSortArrayClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/array_max_value/ArrayMaxValueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/binary_search/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/merge_sort/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/quick_sort/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/rabin_karp/RabinKarpExtendedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/18_Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/Task 2" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/Task 2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/array_max_value/ArrayMaxValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/binary_search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/binary_search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/bubble_sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/iteration_vs_recursion/IterationVsRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/iteration_vs_recursion/IterationVsRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/merge_sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/merge_sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/quick_sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/quick_sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/test/java/TestBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/test/java/TestBubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +100,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1Zsw1snZzrOaV0O27PHmuRscdOh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,7 +118,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/18_Algorithms/Algorithms" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
@@ -104,82 +126,117 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/18_Algorithms/Algorithms" />
       <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src" />
       <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/resources" />
       <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/java" />
       <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/res" />
-      <recent name="$PROJECT_DIR$/14_Performance/CarNumberGenerator/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/18_Algorithms/src" />
+      <recent name="$PROJECT_DIR$/18_Algorithms" />
+      <recent name="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java" />
+      <recent name="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main" />
+      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java" />
-      <recent name="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main" />
-      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/resources" />
-      <recent name="$PROJECT_DIR$/14_Performance/VoteAnalyzer/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/src/main/resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="HDFSExample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="SparkExample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoteAnalyzer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Loader" />
-      <module name="VoteAnalyzer" />
-      <option name="WORKING_DIRECTORY" value="$ModuleFileDir$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
+  <component name="RunManager" selected="JUnit.QuickSortTest">
+    <configuration name="ArrayMaxValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="18_Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.*" />
+          <option name="PATTERN" value="array_max_value.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestBubbleSort" />
+      <option name="PACKAGE_NAME" value="array_max_value" />
+      <option name="MAIN_CLASS_NAME" value="array_max_value.ArrayMaxValueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="18_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="binary_search" />
+      <option name="MAIN_CLASS_NAME" value="binary_search.BinarySearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="18_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstract_class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="abstract_class" />
+      <option name="MAIN_CLASS_NAME" value="abstract_class.AbstractSortArrayClass" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="merge_sort.MergeSortTest" />
+        <pattern testClass="quick_sort.QuickSortTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="18_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="merge_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="merge_sort" />
+      <option name="MAIN_CLASS_NAME" value="merge_sort.MergeSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="18_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quick_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="quick_sort" />
+      <option name="MAIN_CLASS_NAME" value="quick_sort.QuickSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.VoteAnalyzer" />
-      <item itemvalue="JUnit.TestBubbleSort" />
-      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="JUnit.MergeSortTest and 1 more" />
+      <item itemvalue="JUnit.ArrayMaxValueTest" />
+      <item itemvalue="JUnit.BinarySearchTest" />
+      <item itemvalue="JUnit.MergeSortTest" />
+      <item itemvalue="JUnit.QuickSortTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="JUnit.TestBubbleSort" />
-        <item itemvalue="Application.VoteAnalyzer" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="JUnit.QuickSortTest" />
+        <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.BinarySearchTest" />
+        <item itemvalue="JUnit.ArrayMaxValueTest" />
+        <item itemvalue="JUnit.MergeSortTest and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +413,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>

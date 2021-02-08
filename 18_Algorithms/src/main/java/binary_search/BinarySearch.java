@@ -3,6 +3,7 @@ package binary_search;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.TreeMap;
 
 public class BinarySearch
 {
@@ -22,12 +23,23 @@ public class BinarySearch
     {
         //TODO: write code here
 
+        if(list.isEmpty() || from >= to){
+            return -1;
+        }
+
+        TreeMap<String, Integer> mapList = new TreeMap<>();
+
+        for (int i = 0; i < list.size(); i++) {
+            mapList.put(list.get(i), i);
+        }
         Collections.sort(list);
+
+
 
         int middle = (from + to) / 2;
         int comparison = query.compareTo(list.get(middle));
         if (comparison == 0){
-            return middle;
+            return mapList.get(list.get(middle));
         }
         if(comparison > 0){
 
