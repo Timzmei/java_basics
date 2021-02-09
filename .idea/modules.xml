@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" filepath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_BigData/SparkExample/SparkExample.iml" filepath="$PROJECT_DIR$/15_BigData/SparkExample/SparkExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" filepath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_DataStructures/homework_19.1/homework_19.1.iml" filepath="$PROJECT_DIR$/19_DataStructures/homework_19.1/homework_19.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_DataStructures/homework_19.2/homework_19.2.iml" filepath="$PROJECT_DIR$/19_DataStructures/homework_19.2/homework_19.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_DataStructures/homework_19.3/homework_19.3.iml" filepath="$PROJECT_DIR$/19_DataStructures/homework_19.3/homework_19.3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics.iml" filepath="$PROJECT_DIR$/.idea/java_basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" filepath="$PROJECT_DIR$/12_SpringBootWebDevelopment/ToDoList/toDoList.iml" />
     </modules>

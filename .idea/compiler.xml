@@ -6,24 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="homework_19.2" />
         <module name="toDoList" />
+        <module name="homework_19.1" />
         <module name="SparkExample" />
         <module name="Mongo" />
+        <module name="homework_19.3" />
         <module name="CarNumberGenerator" />
-        <module name="MongoDB_Shop" />
         <module name="HDFSExample" />
-        <module name="VoteAnalyzer" />
         <module name="Redis" />
         <module name="BookLibrary" />
+        <module name="MongoDB_Shop" />
+        <module name="VoteAnalyzer" />
         <module name="18_Algorithms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="18_Algorithms" target="11" />
+      <module name="19_DataStructures" target="15" />
       <module name="Algorithms" target="11" />
       <module name="BookLibrary" target="1.8" />
       <module name="CarNumberGenerator" target="6" />
       <module name="HDFSExample" target="7" />
+      <module name="homework_19.1" target="11" />
+      <module name="homework_19.2" target="11" />
+      <module name="homework_19.3" target="11" />
       <module name="Mongo" target="8" />
       <module name="MongoDB_Shop" target="8" />
       <module name="Redis" target="1.5" />

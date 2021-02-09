@@ -18,15 +18,17 @@ public class RabinKarpExtended
 
     public Integer search(String query)
     {
+
+
         if (query == null){
-            return null;
+            return -1;
         }
         createIndex(query.length());
         System.out.println("Размер алфавита: " + checkAlphabet().size());
 
         for (char ch:
              query.toCharArray()) {
-            if(!(checkAlphabet().contains(ch))){
+            if(!(checkAlphabet().contains((int)ch))){
                 System.out.println("В искомой подстроке есть символ не из алфавита");
             }
 
@@ -42,13 +44,13 @@ public class RabinKarpExtended
 
             if(queryHash == number2position.get(i)){
 
-                System.out.println("Строка найдена. Позиция строки в тексте: " + (i + 1));
-                return i + 1;
+                System.out.println("Строка найдена. Позиция строки в тексте: " + (i));
+                return i;
             }
 
         }
         System.out.println("Строка не найдена");
-        return null;
+        return -1;
     }
 
     private void createIndex(int queryLength)

@@ -28,33 +28,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="01.02.2021 ДЗ 18">
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/array_max_value/ArrayMaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/abstract_class/AbstractSortArrayClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/array_max_value/ArrayMaxValueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/binary_search/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/merge_sort/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/quick_sort/QuickSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/rabin_karp/RabinKarpExtendedTest.java" afterDir="false" />
+    <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="09.02.2021 ДЗ 18">
+      <change afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.1/homework_19.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.2/homework_19.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/homework_19.3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/18_Algorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/Task 2" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/Task 2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/array_max_value/ArrayMaxValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/binary_search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/binary_search/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/bubble_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/bubble_sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/iteration_vs_recursion/IterationVsRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/iteration_vs_recursion/IterationVsRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/merge_sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/merge_sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/quick_sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/quick_sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_Algorithms/Algorithms/src/main/java/test/java/TestBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/test/java/TestBubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/main/java/rabin_karp/RabinKarpExtended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18_Algorithms/src/test/java/rabin_karp/RabinKarpExtendedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/18_Algorithms/src/test/java/rabin_karp/RabinKarpExtendedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +105,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/18_Algorithms/Algorithms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/19_DataStructures/homework_19.3/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
@@ -143,18 +130,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSortTest">
-    <configuration name="ArrayMaxValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RabinKarpExtendedTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="18_Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array_max_value.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="array_max_value" />
-      <option name="MAIN_CLASS_NAME" value="array_max_value.ArrayMaxValueTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,25 +149,6 @@
       <option name="PACKAGE_NAME" value="binary_search" />
       <option name="MAIN_CLASS_NAME" value="binary_search.BinarySearchTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="18_Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstract_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="abstract_class" />
-      <option name="MAIN_CLASS_NAME" value="abstract_class.AbstractSortArrayClass" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="merge_sort.MergeSortTest" />
-        <pattern testClass="quick_sort.QuickSortTest" />
-      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,20 +183,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabinKarpExtendedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="18_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rabin_karp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rabin_karp" />
+      <option name="MAIN_CLASS_NAME" value="rabin_karp.RabinKarpExtendedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.MergeSortTest and 1 more" />
-      <item itemvalue="JUnit.ArrayMaxValueTest" />
       <item itemvalue="JUnit.BinarySearchTest" />
       <item itemvalue="JUnit.MergeSortTest" />
       <item itemvalue="JUnit.QuickSortTest" />
+      <item itemvalue="JUnit.RabinKarpExtendedTest" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RabinKarpExtendedTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.QuickSortTest" />
         <item itemvalue="JUnit.MergeSortTest" />
         <item itemvalue="JUnit.BinarySearchTest" />
-        <item itemvalue="JUnit.ArrayMaxValueTest" />
-        <item itemvalue="JUnit.MergeSortTest and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612203816516</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="09.02.2021 ДЗ 18">
+      <created>1612816479359</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612816479359</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +395,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -483,6 +465,7 @@
     <MESSAGE value="10.08.2020 ДЗ 15.4" />
     <MESSAGE value="11.08.2020 ДЗ 15.10" />
     <MESSAGE value="01.02.2021 ДЗ 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.02.2021 ДЗ 18" />
+    <MESSAGE value="09.02.2021 ДЗ 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.02.2021 ДЗ 18" />
   </component>
 </project>

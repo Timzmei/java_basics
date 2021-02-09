@@ -32,7 +32,7 @@ class RabinKarpExtendedTest {
         String query = "SDFA";
         RabinKarpExtended rabin = new RabinKarpExtended(text);
         Integer act = rabin.search(query);
-        assertEquals(act.toString(), "[]");
+        assertEquals(act.toString(), "-1");
     }
 
 //    @Test
@@ -49,7 +49,7 @@ class RabinKarpExtendedTest {
         String query = "asdfga7";
         RabinKarpExtended rabin = new RabinKarpExtended(text);
         Integer act = rabin.search(query);
-        assertEquals(act.toString(), "[]");
+        assertEquals(act.toString(), "-1");
     }
 
     @Test
@@ -59,7 +59,7 @@ class RabinKarpExtendedTest {
         String query = "";
         RabinKarpExtended rabin = new RabinKarpExtended(text);
         Integer act = rabin.search(query);
-        assertEquals(act.toString(), "[]");
+        assertEquals(act.toString(), "-1");
     }
 
 }
