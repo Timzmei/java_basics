@@ -9,28 +9,108 @@ public class DoubleLinkedList<T> {
 
     public ListItem<T> popHeadElement() {
         // TODO
-        return null;
+        ListItem head = this.head;
+
+        if(size != 0){
+            if (size == 1){
+                removeHeadElement();
+            }
+            else {
+                ListItem newHead = this.head.getNext();
+                newHead.setPrev(null);
+                this.head = newHead;
+
+                size--;
+            }
+        }
+        return head;
     }
 
     public ListItem<T> popTailElement() {
         // TODO
-        return null;
+        ListItem tail = this.tail;
+
+        if(size != 0){
+            if(size == 1){
+                removeTailElement();
+            }
+            else {
+                ListItem newTail = this.tail.getPrev();
+                newTail.setNext(null);
+                this.tail = newTail;
+
+                size--;
+            }
+        }
+        return tail;
     }
 
     public void removeHeadElement() {
         // TODO
+        if(size != 0){
+            if(size == 1){
+                this.head = null;
+                this.tail = null;
+            }
+            else {
+                ListItem temp = this.head.getNext();
+                temp.setPrev(null);
+                this.head = temp;
+            }
+            size--;
+        }
+
     }
 
     public void removeTailElement() {
         // TODO
+        if(size != 0){
+            if(size == 1){
+                this.head = null;
+                this.tail = null;
+            }
+            else {
+                ListItem temp = getTailElement().getPrev();
+                temp.setNext(null);
+                tail = temp;
+
+            }
+            size--;
+        }
+
     }
 
     public void addToHead(T data) {
         // TODO
+
+        ListItem temp = new ListItem(data);
+        if (getSize() == 0){
+            this.head = temp;
+            this.tail = temp;
+        }
+        else{
+            temp.setNext(this.head);
+            this.head.setPrev(temp);
+            temp.setPrev(null);
+            this.head = temp;
+        }
+        size++;
     }
 
     public void addToTail(T data) {
         // TODO
+        ListItem temp = new ListItem(data);
+        if (getSize() == 0){
+            this.head = temp;
+            this.tail = temp;
+        }
+        else{
+            temp.setPrev(this.tail);
+            this.tail.setNext(temp);
+            temp.setNext(null);
+            this.tail = temp;
+        }
+        size++;
     }
 
     public int getSize() {

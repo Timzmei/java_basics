@@ -15,6 +15,22 @@ public class ListItem<T> {
         return data;
     }
 
+    public ListItem<T> getPrev() {
+        return prev;
+    }
+
+    public void setPrev(ListItem<T> prev) {
+        this.prev = prev;
+    }
+
+    public ListItem<T> getNext() {
+        return next;
+    }
+
+    public void setNext(ListItem<T> next) {
+        this.next = next;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

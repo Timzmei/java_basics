@@ -29,7 +29,19 @@ public class SingleLinkedList {
 
     public void removeLast() {
         // TODO: remove last element
+        top = findNullElement(top);
     }
+
+    public ListItem findNullElement(ListItem top){
+        ListItem temp = top;
+        if (temp.getNext().getNext() == null){
+            temp.setNext(null);
+
+        }
+        else {findNullElement(temp.getNext());}
+        return top;
+    }
+
 
     @Override
     public boolean equals(Object o) {
