@@ -28,12 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="10.02.2021 ДЗ 18">
-      <change afterPath="$PROJECT_DIR$/19_DataStructures/19_DataStructures.iml" afterDir="false" />
+    <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="11.02.2021 ДЗ 19.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.1/src/main/java/double_linked_list/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.1/src/main/java/double_linked_list/DoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.1/src/main/java/double_linked_list/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.1/src/main/java/double_linked_list/ListItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.1/src/main/java/single_linked_list/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.1/src/main/java/single_linked_list/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/main/java/binary_tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/main/java/binary_tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/test/java/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/test/java/BinaryTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,10 +120,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DoubleLinkedListTest">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="18_Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework_19.2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,21 +141,6 @@
       <module name="homework_19.1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DoubleLinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="18_Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quick_sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="quick_sort" />
-      <option name="MAIN_CLASS_NAME" value="quick_sort.QuickSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.QuickSortTest" />
-      <item itemvalue="JUnit.RabinKarpExtendedTest" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RabinKarpExtendedTest" />
       <item itemvalue="JUnit.SingleLinkedListTest" />
       <item itemvalue="JUnit.DoubleLinkedListTest" />
+      <item itemvalue="JUnit.BinaryTreeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeTest" />
         <item itemvalue="JUnit.DoubleLinkedListTest" />
         <item itemvalue="JUnit.SingleLinkedListTest" />
         <item itemvalue="JUnit.RabinKarpExtendedTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.QuickSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612902829285</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="11.02.2021 ДЗ 19.1">
+      <created>1613068903593</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613068903593</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,7 +381,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="second" />
                       </list>
                     </value>
                   </entry>
@@ -454,6 +453,7 @@
     <MESSAGE value="01.02.2021 ДЗ 18" />
     <MESSAGE value="09.02.2021 ДЗ 18" />
     <MESSAGE value="10.02.2021 ДЗ 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.02.2021 ДЗ 18" />
+    <MESSAGE value="11.02.2021 ДЗ 19.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.02.2021 ДЗ 19.1" />
   </component>
 </project>

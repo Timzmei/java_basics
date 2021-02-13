@@ -41,7 +41,7 @@ public class BinaryTreeTest {
     }
 
     @Test
-    @DisplayName("Добавление корня и элемента справа")
+    @DisplayName("Добавление корня и элемента слева")
     void addRootAndOneLeft() {
         binaryTree.addNode("9");
         binaryTree.addNode("3");
