@@ -45,7 +45,6 @@ public class BinaryTree {
 
     public boolean isContainsInNode(String data, Node node){
         boolean result = false;
-
         if(Integer.parseInt(node.getData().replaceAll("\\D", "")) < Integer.parseInt(data.replaceAll("\\D", ""))){
             if (node.getRight() != null){
                 result = isContainsInNode(data, node.getRight());
