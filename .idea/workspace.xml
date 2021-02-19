@@ -29,9 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="11.02.2021 ДЗ 19.1">
+      <change afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/main/java/binary_tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/main/java/binary_tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/test/java/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.2/src/test/java/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/SuffixTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/SuffixTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/19_DataStructures/homework_19.3/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
@@ -120,10 +122,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="18_Algorithms" />
+      <module name="homework_19.3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,19 +173,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.RabinKarpExtendedTest" />
       <item itemvalue="JUnit.SingleLinkedListTest" />
       <item itemvalue="JUnit.DoubleLinkedListTest" />
       <item itemvalue="JUnit.BinaryTreeTest" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.BinaryTreeTest" />
         <item itemvalue="JUnit.DoubleLinkedListTest" />
         <item itemvalue="JUnit.SingleLinkedListTest" />
         <item itemvalue="JUnit.RabinKarpExtendedTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +383,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="second" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
