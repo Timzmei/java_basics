@@ -29,10 +29,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3859f04-2759-41ff-bc19-ca321550b2de" name="Default Changelist" comment="19.02.2021 ДЗ 19.3">
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/HtmlParser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/ImageResizer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/ImageResizer/src/main/java/ImageResizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/ImageResizer/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/Transactions/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/Transactions/src/main/java/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/Transactions/src/main/java/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/Transactions/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_Multithreading/Transactions/src/main/java/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/SuffixTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/19_DataStructures/homework_19.3/src/main/java/suffix_tree/SuffixTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Multithreading/ImageResizer/ImageResizer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11_Multithreading/ImageResizer/ImageResizer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Multithreading/ImageResizer/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_Multithreading/Transactions/Transactions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11_Multithreading/Transactions/Transactions.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +108,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Transactions" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40114942" />
@@ -172,11 +184,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.RabinKarpExtendedTest" />
       <item itemvalue="JUnit.SingleLinkedListTest" />
       <item itemvalue="JUnit.DoubleLinkedListTest" />
       <item itemvalue="JUnit.BinaryTreeTest" />
-      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>

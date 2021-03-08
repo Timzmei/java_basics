@@ -7,10 +7,13 @@
       <module fileurl="file://$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" filepath="$PROJECT_DIR$/14_Performance/CarNumberGenerator/CarNumberGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/16_Final/DesktopApp/DesktopApp.iml" filepath="$PROJECT_DIR$/16_Final/DesktopApp/DesktopApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_BigData/HDFSExample/HDFSExample.iml" filepath="$PROJECT_DIR$/15_BigData/HDFSExample/HDFSExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Multithreading/HtmlParser/HtmlParser.iml" filepath="$PROJECT_DIR$/11_Multithreading/HtmlParser/HtmlParser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Multithreading/ImageResizer/ImageResizer.iml" filepath="$PROJECT_DIR$/11_Multithreading/ImageResizer/ImageResizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" filepath="$PROJECT_DIR$/13_NoSQL/Mongo/Mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" filepath="$PROJECT_DIR$/13_NoSQL/ MongoDB_Shop/MongoDB_Shop.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" filepath="$PROJECT_DIR$/13_NoSQL/Redis/Redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_BigData/SparkExample/SparkExample.iml" filepath="$PROJECT_DIR$/15_BigData/SparkExample/SparkExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_Multithreading/Transactions/Transactions.iml" filepath="$PROJECT_DIR$/11_Multithreading/Transactions/Transactions.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" filepath="$PROJECT_DIR$/14_Performance/VoteAnalyzer/VoteAnalyzer.iml" />
       <module fileurl="file://$PROJECT_DIR$/19_DataStructures/homework_19.1/homework_19.1.iml" filepath="$PROJECT_DIR$/19_DataStructures/homework_19.1/homework_19.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/19_DataStructures/homework_19.2/homework_19.2.iml" filepath="$PROJECT_DIR$/19_DataStructures/homework_19.2/homework_19.2.iml" />

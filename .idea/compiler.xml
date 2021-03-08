@@ -16,8 +16,11 @@
         <module name="HDFSExample" />
         <module name="Redis" />
         <module name="BookLibrary" />
+        <module name="Transactions" />
+        <module name="HtmlParser" />
         <module name="MongoDB_Shop" />
         <module name="VoteAnalyzer" />
+        <module name="ImageResizer" />
         <module name="18_Algorithms" />
       </profile>
     </annotationProcessing>
@@ -31,11 +34,14 @@
       <module name="homework_19.1" target="11" />
       <module name="homework_19.2" target="11" />
       <module name="homework_19.3" target="11" />
+      <module name="HtmlParser" target="8" />
+      <module name="ImageResizer" target="15" />
       <module name="Mongo" target="8" />
       <module name="MongoDB_Shop" target="8" />
       <module name="Redis" target="1.5" />
       <module name="SparkExample" target="8" />
       <module name="toDoList" target="8" />
+      <module name="Transactions" target="15" />
       <module name="VoteAnalyzer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
